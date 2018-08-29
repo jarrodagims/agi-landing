@@ -1,0 +1,461 @@
+#footer {
+  padding: 3em 0 2em;
+  text-align: center;
+  background: #000;
+  color: $white;
+
+  .btn {
+    background: #2193FA;
+    color: $white;
+    border: 0;
+    letter-spacing: 3px;
+    padding: 20px 22px;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 12px;
+  
+
+    @include dropshadow();
+
+    &:hover {
+      background: $sherpa-brand-primary;
+    }
+  }
+
+  .col-md-8 {
+    .flex-row {
+      justify-content: space-between;
+    }
+  }
+
+
+  a.arrow {
+     font-weight: 500;
+
+      &::after {
+        display: block;
+        clear: both;
+        position: relative;
+        padding: 0 0;
+        background-size: 29px;
+        width: 29px;
+        height: 29px;
+        margin: 20px auto 0;
+        content: '';
+      }
+
+      &:hover {
+        text-decoration: none;
+      }
+
+     @media screen and (min-width: $screen-sm-min) {
+        position: relative;
+        display: inline-block;
+        margin-bottom: 1em;
+
+        &::after {
+          display: block;
+          clear: both;
+          position: absolute;
+          right: -4.5em;
+          top: -14px;
+          padding: 0 0;
+          background-size: 34px;
+          width: 34px;
+          height: 34px;
+          margin: 20px auto 0;
+          content: '';
+        }
+     }
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+
+    .contact-footer, .hours-footer {
+      
+      > div {
+        padding-top: 10px;
+        font-weight: 300;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    .sub-footer {
+        margin-top: 81px;
+    }
+
+    
+    .copyright {
+      text-align: right;
+    }
+
+
+
+    .contact-footer {
+
+      .btn {
+        margin-top: 2em;
+      }
+    }
+  }
+
+  @media screen and (max-width: $screen-sm-min) {
+    text-align: left;
+  }
+
+
+
+  @media screen and (max-width: $screen-sm-max) {
+
+    .flex-row {
+      flex-direction: column;
+    }
+
+    ul {
+      margin: 20px auto;
+      overflow: auto;
+      width: auto;
+      display: inline-block;
+    }
+
+
+    .logo-footer img {
+      height: 100px;
+    }
+
+    .hours-footer, .contact-footer, .logo-footer, .button-footer {
+      text-align: center;
+      width: auto;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    a.arrow {
+      margin-bottom: 2em;
+    }
+
+    .button-footer {
+      .btn-border {
+        font-size: 11px;
+        padding: 24px 17px;
+      }
+    }
+  }
+
+  .menu-primary-container {
+    margin: 0 auto;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.75;
+    font-weight: 300;
+    margin-bottom: 0;
+  }
+
+  .btn {
+    margin-top: 40px;
+  }
+
+  ul {
+    padding-left: 0;
+    margin-top: auto;
+  }
+
+  ul li {
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin-bottom: .5em;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  a {
+    color: #fff;
+  }
+
+  .contact-button {
+    margin-top: 5px;
+  }
+
+  a.btn {
+    &:hover {
+      background: $sherpa-brand-primary;
+      border-color: $sherpa-brand-primary;
+    }
+  }
+
+  .full-height {
+    margin-bottom: 4em;
+  }
+
+  .menu {
+    padding-left: 0;
+    list-style: none;
+
+    > li a {
+      color: #ffffff;
+    }
+  }
+
+  .navbar-brand {
+    float: none;
+    text-align: center;
+    position: relative;
+
+    img {
+      width: 100%;
+      
+    }
+  }
+
+  .navbar-sherpa .navbar-nav > li > a {
+    color: #7D8082;
+  }
+
+  #menu-menu-footer {
+    margin: 0 auto;
+  }
+
+  .menu-footer-container,
+  .menu-menu-footer-container {
+    text-align: center;
+    display: flex;
+    flex: 1;
+
+    #menu-footer,
+    #menu-footer-spanish {
+      margin: 0 auto;
+      display: inline-block;
+      float: none;
+    }
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+
+    .row:first-child {
+      flex: 1;
+    }
+  }
+
+  span.title {
+    margin: 1em;
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: $white;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  a .fa {
+    color: #D2D2D2;  
+    padding: 0 0;
+  }
+
+  a:hover .fa {
+    color: $sherpa-brand-primary;
+  }
+
+  .sub-footer {
+  
+
+    p, ul {
+      margin: 0;
+    }
+  }
+
+
+  .social-media-button {
+    color: #D2D2D2;
+    width: auto; 
+    height: auto;
+
+    
+    background: none;
+    &:hover {
+      color: $sherpa-brand-primary;
+    }
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    text-align: left;
+
+    span.title {
+      margin: 0 0 0.5em;
+      display: block;
+      font-size: 14px;
+    }
+
+    .logo {
+      margin-bottom: 40px;
+    }
+  }
+
+  @media screen and (max-width: $screen-sm-max) {
+
+    .contact-footer, .hours-footer {
+      margin-top: 1.8em;
+    }
+
+    .phone-footer {
+      margin-top: .5em;
+    }
+
+    span.title {
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+
+    .social-container {
+      text-align: center;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 1.75;
+      font-weight: 300;
+      margin-bottom: 0em;
+    }
+  }
+
+  .footer-bottom {
+    color: #fff;
+    padding: 1.5em 0;
+    margin-top: 4em;
+
+    ul li {
+      text-transform: uppercase;
+    }
+
+    .btn {
+      padding: 1em 3.2em;
+      font-size: 9px;
+    }
+
+    .separate {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .navbar.navbar-sherpa {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+
+.footer-nav {
+
+  .navbar-sherpa {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+  }
+
+  .menu-footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .navbar-sherpa .navbar-nav > li > a {
+
+    &:hover {
+      color: $sherpa-brand-primary;
+    }
+  }
+
+  @media screen and (max-width: $screen-sm-max) {
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: $screen-sm-max) {
+
+  
+  #footer {
+    padding: 2em 0;
+
+    a {
+      width: auto;
+    }
+
+    #map-section {
+      max-height: 120px;
+    }
+
+    span.title {
+      margin: 0 0 1em 0;
+    }
+
+    .navbar-brand {
+      height: auto;
+
+      img {
+        margin: 0 auto;
+        height: 102px;
+      }
+    }
+
+    @media screen and (max-width: $screen-sm-max) {
+      padding-bottom: 0;
+
+      .navbar-brand {
+        position: relative;
+        transform: none;
+
+        img {
+          width: auto;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $screen-sm-max) {
+  #footer {
+    padding: 2em;
+    text-align: center;
+
+    a {
+      display: block;
+    }
+
+    .btn {
+      font-size: 9px;
+      padding: 14px 18px;
+      margin-bottom: 28px;
+      @include nodropshadow();
+    }
+    
+
+    .social-media-button {
+      color: #051A3F;
+
+      &:hover {
+        color: $sherpa-brand-primary !important;
+      }
+    }
+
+    .sub-footer {
+      .flex-col {
+        flex-direction: column;
+      }
+    }
+  }
+}
+ 

@@ -1,0 +1,1 @@
+var gulp=require("gulp"),compass=require("gulp-compass");gulp.task("default",function(){}),gulp.task("compass",function(){gulp.src("./src/*.scss").pipe(compass({config_file:"./config.rb",css:"css",sass:"scss",sourcemap:!0})).pipe(gulp.dest("./css"))}),gulp.task("watch",function(){gulp.watch("./scss/**/*.scss",["compass"]),gulp.watch("./scss/**/*.sass",["compass"])});

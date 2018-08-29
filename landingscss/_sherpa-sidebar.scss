@@ -1,0 +1,254 @@
+
+.sidebar-content {
+  margin-top: 45px;
+
+  .post-title {
+    font-weight: 300;
+    font-size: 39px;
+    color: #8F9699;
+  }
+
+  
+  @media screen and (min-width: $screen-md-min) {
+    .page-content, #sidebar {
+      padding-top: 10px;
+    }
+  }
+
+  @media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+    .img-responsive {
+      max-width: 40%;
+      height: auto; 
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  @media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    .flex-row {
+      flex-direction: column;
+    }
+
+    .img-responsive {
+      max-width: 30%;
+      height: auto; 
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+body #main .container article #sidebar {
+  float: right;
+  width: 411px;
+  margin-left: 4em;
+  text-align: center;
+
+  h3 {
+    font-size: 26px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    color: $white;
+  }
+
+  h4 {
+    font-size: 19px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: $white;
+  }
+
+  @media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    width: 300px;
+  } 
+
+}
+
+body #main .container article #sidebar {
+
+//   z-index: 9999;
+  position: relative;
+
+  .bottom-sidebar {
+    background: #F2F2F2;
+    padding: 64px;
+
+    .small {
+      display: block;
+    }
+  }
+
+  .bg {
+    justify-content: flex-start; 
+    align-items: flex-end; 
+    text-align: center;
+    flex-direction: column;
+
+
+    .header {
+      background: $sherpa-secondary-color;
+      padding: 2em 0;
+      width: 100%;
+
+
+      h2 {
+        margin-bottom: 0;
+        color: $white;
+      }
+    }
+
+    .image {
+      background: url('../img/bg-home-2-mobile.jpg') right center no-repeat;
+      background-size: cover;
+      height: 284px;
+      width: 100%;
+    }
+
+    .contact-us {
+      flex-direction: column;
+      width: 100%;
+      background: #F2F2F2;
+      padding: 42px;
+      z-index: 99;
+      
+
+      .title {
+        color: $sherpa-brand-primary;
+        font-size: 24px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        letter-spacing: 2px;
+      }
+
+      .facebook-icon {
+        width: 42px;
+        height: 42px;
+        margin: 2em 0 .75em;
+      }
+
+      .btn {
+        border: 0;
+        font-size: 9px;
+        margin-top: 0;
+        padding: 2em 4.5em;
+      }
+
+      p {
+        line-height: 1.5;
+      }
+    }
+
+    .container-half {
+       flex-direction: column;
+       display: flex;
+       justify-content: flex-end;
+       align-items: flex-end;
+      padding: 0 0;
+      width: 100%;
+    }
+
+
+    .h2 {
+      font-family: 'Raleway', sans-serif;
+      color: $white;
+      margin: 0 0;
+
+      .title {
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-weight: 300;
+      }
+
+      .subtitle {
+        font-size: 22px;
+        display: block;
+        font-weight: 600;
+        letter-spacing: 4px;
+      }
+    }
+  }
+
+  p {
+    color: #515151;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  .bottom-sidebar {
+    
+    .small {
+      font-size: 16px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin-bottom: 0;
+      line-height: 1;
+    }
+
+    .large {
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 1.25;
+      font-family: 'Montserrat', sans-serif;
+    }
+  }
+}
+
+@media screen and (min-width: $screen-md-min) {
+  body #main .container article #sidebar {
+    margin-bottom: 2em;
+    @include dropshadow();
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: $grid-float-breakpoint-max) {
+  body #main .container article #sidebar {
+    float: none;
+    max-width: 100%;
+    margin-left: 0;
+    margin-bottom: 2em;
+    background: none;
+    padding: 0;
+    width: 100%;
+  }
+
+  body #main .container {
+//     padding-left: 0;
+//     padding-right: 0;
+
+    .content {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+}
+
+body #main .container article .content-contact #sidebar {
+  margin-left: 0;
+  @media screen and (max-width: $grid-float-breakpoint-max) {
+    clear: both;
+  }
+}
+
+body #main .container article #sidebar p.ctf-tweet-text, body #main .container article #sidebar p.cff-post-text {
+  color: #9b9b9b;
+  text-align: left;
+}
+
+body #main .container article #sidebar .green-box p {
+  color: #fff;
+}
+
+@media screen and (max-width: $grid-float-breakpoint-max) {
+  .cff-wrapper {
+    display: none !important;
+  }
+}

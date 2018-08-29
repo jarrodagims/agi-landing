@@ -1,0 +1,22 @@
+{
+  "name": "agi2016",
+  "version": "1.0.0",
+  "description": "agi theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path  --source-map  css landingscss/style.scss css/landing-style.css --output-style compressed",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "start": "livereload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agims/sherpa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agims/sherpa/issues"
+  },
+  "homepage": "https://github.com/agims/sherpa#readme"
+}

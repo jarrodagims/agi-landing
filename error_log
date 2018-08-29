@@ -1,0 +1,13 @@
+[25-Mar-2018 02:49:21 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home1/eptransi/public_html/agims/wp-content/themes/agi2016/header-common.php on line 3
+[25-Mar-2018 02:49:24 America/Denver] PHP Fatal error:  Call to undefined function language_attributes() in /home1/eptransi/public_html/agims/wp-content/themes/agi2016/header-common.php on line 3
+[29-Mar-2018 01:09:36 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/eptransi/public_html/agims/wp-content/themes/agi2016/index.php on line 1
+[14-Apr-2018 21:54:50 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/eptransi/public_html/agims/wp-content/themes/agi2016/index.php on line 1
+[15-Apr-2018 00:07:01 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/eptransi/public_html/agims/wp-content/themes/agi2016/index.php on line 1
+[15-Apr-2018 09:28:48 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/eptransi/public_html/agims/wp-content/themes/agi2016/index.php on line 1
+[15-Apr-2018 17:21:09 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/eptransi/public_html/agims/wp-content/themes/agi2016/index.php on line 1
+[15-Apr-2018 23:40:08 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/eptransi/public_html/agims/wp-content/themes/agi2016/index.php on line 1
+[03-May-2018 17:29:11 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/eptransi/public_html/agims/wp-content/themes/agi2016/index.php on line 1
+[04-May-2018 04:39:47 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/eptransi/public_html/agims/wp-content/themes/agi2016/index.php on line 1
+[04-May-2018 08:24:58 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/eptransi/public_html/agims/wp-content/themes/agi2016/index.php on line 1
+[04-May-2018 12:01:08 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/eptransi/public_html/agims/wp-content/themes/agi2016/index.php on line 1
+[04-May-2018 12:36:32 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home1/eptransi/public_html/agims/wp-content/themes/agi2016/index.php on line 1
