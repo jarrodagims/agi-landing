@@ -222,7 +222,7 @@ a.navbar-brand {
 		color: #fff;
 		font-style: italic;
 		font-weight: 900;
-		background: url(/wp-content/themes/agi2016/img/menu.png);
+		background: url(../img/menu.png);
 		width: 45px;
 		height: 45px;
 		background-size: 100%;

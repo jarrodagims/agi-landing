@@ -1,13 +1,13 @@
 <?php
 /*
- Template Name: Home 2017b
+ Template Name: Home 2017c
 */
 get_header(home); ?>
     <div id="home-header-top">
         <div class="container">
             <div class="row">
                 <div id="toplogo" class="col-lg-5 col-md-7 col-sm-12 col-xs-12 col-xss-12">
-                    <a href="/"> <img src="https://www.agims.com/wp-content/themes/agi2016/img/agi-marketing-logo.png"
+                    <a href="/"> <img src="<?= THEMEURL ?>/img/agi-marketing-logo.png"
                                       alt="AGI Marketing"> </a>
                 </div>
                 <div id="topnav" class="col-lg-19 col-md-17 col-sm-24">
@@ -87,50 +87,139 @@ get_header(home); ?>
                 </div>
             </div>
         </section>
-        <section id="question">
+        <section id="verticals">
             <div class="container">
-                <div class="col-xs-24">
-                    <h5>
-                        <span>How's your <strong>Digital Presence?</strong> How would you like to interact with us?</span>
-                    </h5>
+                <div class="row">
+                    <h2 class="section-title">Who We Do <span>Awesome Work For</span></h2>
+                    <h4>Thanks to AGI, our internet leads and new patients that found us online is more than double the
+                        industry average.</h4>
+                    <div class="col-xxs-8 col-xs-8 col-md-4 vert">
+                        <img src="<?= THEMEURL ?>/img/vert-one.png" alt="Dental">
+                    </div>
+                    <div class="col-xxs-8 col-xs-8 col-md-4 vert">
+                        <img src="<?= THEMEURL ?>/img/vert-two.png" alt="Lawyers">
+                    </div>
+                    <div class="col-xxs-8 col-xs-8 col-md-4 vert">
+                        <img src="<?= THEMEURL ?>/img/vert-three.png" alt="Medical">
+                    </div>
+                    <div class="col-xxs-8 col-xs-8 col-md-4 vert">
+                        <img src="<?= THEMEURL ?>/img/vert-four.png" alt="Real Estate">
+                    </div>
+                    <div class="col-xxs-8 col-xs-8 col-md-4 vert">
+                        <img src="<?= THEMEURL ?>/img/vert-five.png" alt="Home Services">
+                    </div>
+                    <div class="col-xxs-8 col-xs-8 col-md-4 vert">
+                        <img src="<?= THEMEURL ?>/img/vert-six.png" alt="Small Business">
+                    </div>
                 </div>
-                <div class="col-xs-24 col-md-8 btn-lt">
-                    <a href="#noweb-popup" class="servicesbtn open-nine">
-                        <div class="cbox"><i class="fa fa-check" aria-hidden="true"></i></div>
-                        <span>Send Me Some Info About Digital Marketing</span></a>
+            </div>
+        </section>
+        <section id="home-cta" class="home-free-website">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxs-24">
+                        <h3 class="no-top-margin">Get A Free Website When You Sign Up For An SEO Package</h3>
+                        <a href="/free-audit/" class="btn btn-tertiary btn-rectangle">Learn More</a>
+                    </div>
                 </div>
-                <div id="noweb-popup" class="white-popup mfp-hide">
-                    <h2><span>Get More Information</span></h2>
-                    <p>Get a FREE Digital Marketing Package Review Today!</p>
-                    <?php echo do_shortcode('[contact-form-7 id="4211" title="AGI CTA 1"]'); ?>
+            </div>
+        </section>
+        <section id="home-cta" class="home-what-we-do">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxs-24">
+                        <h3 class="no-top-margin">What Our Services <span>Do For You</span></h3>
+                        <h4>Do you want more phone calls, leads, foot traffic or website traffic?</h4>
+                    </div>
                 </div>
-                <div class="col-xs-24 col-md-8 btn-rt">
-                    <a href="#norank-popup" class="servicesbtn open-ten">
-                        <div class="cbox"><i class="fa fa-check" aria-hidden="true"></i></div>
-                        <span>I'd Like An Audit of How My Business is Doing Online</span></a>
+                <div class="flex-row">
+                    <div class="col-xxs-8 col-xs-8 col-md-5 vert">
+                        <span class="wwd-number">01</span>
+                        Increase Phone Calls
+                    </div>
+                    <div class="col-xxs-8 col-xs-8 col-md-5 vert">
+                        <span class="wwd-number">02</span>
+                        Increase Website Traffic
+                    </div>
+                    <div class="col-xxs-8 col-xs-8 col-md-5 vert">
+                        <span class="wwd-number">03</span>
+                        Increase Foot Traffic
+                    </div>
+                    <div class="col-xxs-8 col-xs-8 col-md-5 vert">
+                        <span class="wwd-number">04</span>
+                        Increase Lead
+                        Submissions
+                    </div>
+                    <div class="col-xxs-8 col-xs-8 col-md-5 vert">
+                        <span class="wwd-number">05</span>
+                        Increase Local Search Impressions
+                    </div>
                 </div>
-                <div id="norank-popup" class="white-popup mfp-hide">
-                    <h2><span>Request an Audit Today</span></h2>
-                    <p>Let our SEO, Digital, and Social Media Experts take a look at your site to see what it would take
-                        to get it ranking, seen and advertised online.</p>
-                    <?php echo do_shortcode('[contact-form-7 id="4212" title="AGI CTA 2"]'); ?>
-                </div>
-                <div class="col-xs-24 col-md-8 btn-rt">
-                    <a href="#cta3-popup" class="servicesbtn open-eleven">
-                        <div class="cbox"><i class="fa fa-check" aria-hidden="true"></i></div>
-                        <span>I'm Ready to Get Started - Contact Me For An Appointment</span></a>
-                </div>
-                <div id="cta3-popup" class="white-popup mfp-hide">
-                    <h2><span>Get Started Today</span></h2>
-                    <p>Let get in touch and get your site ranking!</p>
-                    <?php echo do_shortcode('[contact-form-7 id="4213" title="AGI CTA 3"]'); ?>
+            </div>
+        </section>
+        <section id="home-testimonials">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-24 text-center">
+                        <h2 class="section-title">
+                            Testimonials
+                        </h2>
+                    </div>
+                    <div class="col-xs-24">
+                        <ul class="testimonials-slider">
+                            <? # This is where we will do a loop with testimonials ?>
+                            <?php
+                            $temp_query = clone $wp_query;
+                            query_posts('post_type=testimonial&posts_per_page=4');
+                            if (have_posts()) {
+                                while (have_posts()) {
+                                    the_post();
+                                    $image_info = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_id()), 'testimonial');
+                                    $image = $image_info[0];
+                                    if (empty($image))
+                                        $image = THEMEURL . '/img/no-profile-pic.png';
+                                    $writer = types_render_field('testimonial-writer', array());
+                                    $writer_title = types_render_field('testimonial-writer-title', array());
+                                    $writer_company = types_render_field('testimonial-writer-company', array());
+                                    $writer_company_info = types_render_field('testimonial-writer-company-info', array());
+                                    $writer_company_url = types_render_field('testimonial-writer-company-url', array());
+                                    ?>
+                                    <li>
+                                        <div class="testimonial">
+                                            <div class="row testimonial-row">
+                                                <div class="col-sm-6 testimonial-pic text-center">
+                                                    <img src="<?= $image ?>" class="testimonial-profile-img img-circle"
+                                                         alt="<?= $writer_company ?>" title="<?= $writer_company ?>"/>
+                                                </div>
+                                                <div class="col-sm-18 testimonial-text-wrapper">
+                                                    <div class="testimonial-text">
+                                                        <p class="testimonial-excerpt">
+                                                            <?= get_the_excerpt() ?>
+                                                        </p>
+                                                        <p class="testimonial-writer">
+                                                            <?= $writer ?><br/>
+                                                            <?= (!empty($writer_title) ? $writer_title . '<br />' : '') ?>
+                                                            <?= $writer_company ?>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <?php
+                                }
+                            }
+                            $wp_query = clone $temp_query;
+                            ?>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
         <section id="services">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12"><h2 class="section-title visible-xs">How We <span>Do It</span></h2></div>
+                    <div class="col-xxs-24 text-center"><h2>How We <span>Do It</span></h2></div>
                 </div>
             </div>
 
@@ -268,30 +357,43 @@ get_header(home); ?>
                 </div>
             </div>
         </section>
-        <section id="verticals">
+        <section id="question">
             <div class="container">
-                <div class="row">
-                    <h2 class="section-title">Who We Do <span>Awesome Work For</span></h2>
-                    <h4>Thanks to AGI, our internet leads and new patients that found us online is more than double the
-                        industry average.</h4>
-                    <div class="col-xxs-8 col-xs-8 col-md-4 vert">
-                        <img src="wp-content/themes/agi2016/img/vert-one.png" alt="Dental">
-                    </div>
-                    <div class="col-xxs-8 col-xs-8 col-md-4 vert">
-                        <img src="wp-content/themes/agi2016/img/vert-two.png" alt="Lawyers">
-                    </div>
-                    <div class="col-xxs-8 col-xs-8 col-md-4 vert">
-                        <img src="wp-content/themes/agi2016/img/vert-three.png" alt="Medical">
-                    </div>
-                    <div class="col-xxs-8 col-xs-8 col-md-4 vert">
-                        <img src="wp-content/themes/agi2016/img/vert-four.png" alt="Real Estate">
-                    </div>
-                    <div class="col-xxs-8 col-xs-8 col-md-4 vert">
-                        <img src="wp-content/themes/agi2016/img/vert-five.png" alt="Home Services">
-                    </div>
-                    <div class="col-xxs-8 col-xs-8 col-md-4 vert">
-                        <img src="wp-content/themes/agi2016/img/vert-six.png" alt="Small Business">
-                    </div>
+                <div class="col-xs-24">
+                    <h5>
+                        <span>How's your <strong>Digital Presence?</strong> How would you like to interact with us?</span>
+                    </h5>
+                </div>
+                <div class="col-xs-24 col-md-8 btn-lt">
+                    <a href="#noweb-popup" class="servicesbtn open-nine">
+                        <div class="cbox"><i class="fa fa-check" aria-hidden="true"></i></div>
+                        <span>Send Me Some Info About Digital Marketing</span></a>
+                </div>
+                <div id="noweb-popup" class="white-popup mfp-hide">
+                    <h2><span>Get More Information</span></h2>
+                    <p>Get a FREE Digital Marketing Package Review Today!</p>
+                    <?php echo do_shortcode('[contact-form-7 id="4211" title="AGI CTA 1"]'); ?>
+                </div>
+                <div class="col-xs-24 col-md-8 btn-rt">
+                    <a href="#norank-popup" class="servicesbtn open-ten">
+                        <div class="cbox"><i class="fa fa-check" aria-hidden="true"></i></div>
+                        <span>I'd Like An Audit of How My Business is Doing Online</span></a>
+                </div>
+                <div id="norank-popup" class="white-popup mfp-hide">
+                    <h2><span>Request an Audit Today</span></h2>
+                    <p>Let our SEO, Digital, and Social Media Experts take a look at your site to see what it would take
+                        to get it ranking, seen and advertised online.</p>
+                    <?php echo do_shortcode('[contact-form-7 id="4212" title="AGI CTA 2"]'); ?>
+                </div>
+                <div class="col-xs-24 col-md-8 btn-rt">
+                    <a href="#cta3-popup" class="servicesbtn open-eleven">
+                        <div class="cbox"><i class="fa fa-check" aria-hidden="true"></i></div>
+                        <span>I'm Ready to Get Started - Contact Me For An Appointment</span></a>
+                </div>
+                <div id="cta3-popup" class="white-popup mfp-hide">
+                    <h2><span>Get Started Today</span></h2>
+                    <p>Let get in touch and get your site ranking!</p>
+                    <?php echo do_shortcode('[contact-form-7 id="4213" title="AGI CTA 3"]'); ?>
                 </div>
             </div>
         </section>
@@ -386,7 +488,7 @@ get_header(home); ?>
         </section>
         <section id="home-we-do">
             <video autoplay loop poster="<?= THEMEURL ?>/img/google-search13.jpg">
-                <source src="/wp-content/themes/agi2016/video/google-search-1920x960-24fps.mp4" type="video/mp4"/>
+                <source src="/<?= THEMEURL ?>/video/google-search-1920x960-24fps.mp4" type="video/mp4"/>
             </video>
             <div class="container">
                 <div class="row">
@@ -500,65 +602,7 @@ get_header(home); ?>
                 </div>
             </div>
         </section>
-        <section id="home-testimonials">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-24 text-center">
-                        <h2 class="section-title">
-                            Testimonials
-                        </h2>
-                    </div>
-                    <div class="col-xs-24">
-                        <ul class="testimonials-slider">
-                            <? # This is where we will do a loop with testimonials ?>
-                            <?php
-                            $temp_query = clone $wp_query;
-                            query_posts('post_type=testimonial&posts_per_page=4');
-                            if (have_posts()) {
-                                while (have_posts()) {
-                                    the_post();
-                                    $image_info = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_id()), 'testimonial');
-                                    $image = $image_info[0];
-                                    if (empty($image))
-                                        $image = THEMEURL . '/img/no-profile-pic.png';
-                                    $writer = types_render_field('testimonial-writer', array());
-                                    $writer_title = types_render_field('testimonial-writer-title', array());
-                                    $writer_company = types_render_field('testimonial-writer-company', array());
-                                    $writer_company_info = types_render_field('testimonial-writer-company-info', array());
-                                    $writer_company_url = types_render_field('testimonial-writer-company-url', array());
-                                    ?>
-                                    <li>
-                                        <div class="testimonial">
-                                            <div class="row testimonial-row">
-                                                <div class="col-sm-6 testimonial-pic text-center">
-                                                    <img src="<?= $image ?>" class="testimonial-profile-img img-circle"
-                                                         alt="<?= $writer_company ?>" title="<?= $writer_company ?>"/>
-                                                </div>
-                                                <div class="col-sm-18 testimonial-text-wrapper">
-                                                    <div class="testimonial-text">
-                                                        <p class="testimonial-excerpt">
-                                                            <?= get_the_excerpt() ?>
-                                                        </p>
-                                                        <p class="testimonial-writer">
-                                                            <?= $writer ?><br/>
-                                                            <?= (!empty($writer_title) ? $writer_title . '<br />' : '') ?>
-                                                            <?= $writer_company ?>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <?php
-                                }
-                            }
-                            $wp_query = clone $temp_query;
-                            ?>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
+
         <section id="home-case-studies">
             <div class="container">
                 <div class="row">

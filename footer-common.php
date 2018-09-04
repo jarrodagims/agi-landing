@@ -376,5 +376,19 @@ if(is_page('free-audit')){
         });
     });
 </script>
+
+<script>
+var LC_API = LC_API || {};
+    LC_API.on_chat_started = function()
+    {
+        // track this chat in Google AdWords
+        var google_conversion_id, google_conversion_label, img;
+        google_conversion_id    = '960835212';
+        google_conversion_label = '7FuvCNb3qIgBEIzdlMoD';
+        img = new Image(1, 1);
+        img.src = 'https://www.googleadservices.com/pagead/conversion/'+google_conversion_id+'/?label='+google_conversion_label+'&script=0';
+    };
+</script>
+
 </body>
 </html>

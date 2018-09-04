@@ -10,7 +10,6 @@ $includes = array(
     'sherpa-theme-options-page.php',// Create our options page - Settings => Theme Options
     'do-shortcode-widget.php',		// Create a widget to do a single shortcode
     'menus.php',					// Set up our menus
-    'SocialMedia.php',              //Setup Social Media for Landing page
     'navs.php',						// Include our navs functions
     'paging-nav.php',				// Set up our paging nav
     'theme-features.php',			// Set up our theme features
@@ -177,9 +176,3 @@ function mycustom_wp_footer()
     <?php
 }
 
-function register_landing_style() {
-    if ( is_page_template( 'page-landing-2018.php' ) ) {
-        wp_enqueue_style( 'landing', get_stylesheet_directory_uri() . '/css/landing-style.css' );
-    }
-}
-add_action( 'wp_enqueue_scripts', 'register_landing_style' );
