@@ -119,7 +119,7 @@ get_header(home); ?>
                 <div class="row">
                     <div class="col-xxs-24">
                         <h3 class="no-top-margin">Get A Free Website When You Sign Up For An SEO Package</h3>
-                        <a href="/free-audit/" class="btn btn-tertiary btn-rectangle">Learn More</a>
+                        <a href="/web-design-management/" class="btn btn-tertiary btn-rectangle">Learn More</a>
                     </div>
                 </div>
             </div>
