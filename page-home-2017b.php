@@ -1,6 +1,6 @@
 <?php
 /*
- Template Name: Home 2017c
+ Template Name: Home 2017b
 */
 get_header(home); ?>
     <div id="home-header-top">
@@ -73,8 +73,7 @@ get_header(home); ?>
                                 <h1 class="iceberg-title-h5"><span>/sem/</span> Search Engine Marketing</h1>
                                 <p style="text-align: left;font-size: 22px;text-shadow:none;">Increasing the visibility
                                     of a business online through search engine optimization, online reputation
-                                    management, digital, video & social media advertising.</p></
-                            >
+                                    management, digital, video & social media advertising.</p>
                         </div>
                         <form id="searching-form">
                             <div class="input-group input-group-lg">
@@ -118,10 +117,16 @@ get_header(home); ?>
             <div class="container">
                 <div class="row">
                     <div class="col-xxs-24">
+                        <h4>Do you want more phone calls, leads, foot traffic or website traffic?</h4>
                         <h3 class="no-top-margin">Get A Free Website When You Sign Up For An SEO Package</h3>
-                        <a href="/web-design-management/" class="btn btn-tertiary btn-rectangle">Learn More</a>
+                        <a href="#freeweb-popup" href="/web-design-management/" class="popup-button btn btn-tertiary btn-rectangle">Learn More</a>
                     </div>
                 </div>
+            </div>
+            <div id="freeweb-popup" class="white-popup mfp-hide">
+                <h2><span>Get A FREE Website</span></h2>
+                <p>When You Sign Up For An SEO Package</p>
+                <?php echo do_shortcode('[contact-form-7 id="4697" title="AGI Home Free Web"]'); ?>
             </div>
         </section>
         <section id="home-cta" class="home-what-we-do">
@@ -129,7 +134,6 @@ get_header(home); ?>
                 <div class="row">
                     <div class="col-xxs-24">
                         <h3 class="no-top-margin">What Our Services <span>Do For You</span></h3>
-                        <h4>Do you want more phone calls, leads, foot traffic or website traffic?</h4>
                     </div>
                 </div>
                 <div class="flex-row">
@@ -216,6 +220,47 @@ get_header(home); ?>
                 </div>
             </div>
         </section>
+        <section id="question">
+            <div class="container">
+                <div class="col-xs-24">
+                    <h5>
+                        <span>How's your <strong>Digital Presence?</strong> How would you like to interact with us?</span>
+                    </h5>
+                </div>
+                <div class="col-xs-24 col-md-8 btn-lt">
+                    <a href="#noweb-popup" class="servicesbtn open-nine popup-button">
+                        <div class="cbox"><i class="fa fa-check" aria-hidden="true"></i></div>
+                        <span>Send Me Some Info About Digital Marketing</span></a>
+                </div>
+                <div id="noweb-popup" class="white-popup mfp-hide">
+                    <h2><span>Get More Information</span></h2>
+                    <p>Get a FREE Digital Marketing Package Review Today!</p>
+                    <?php echo do_shortcode('[contact-form-7 id="4211" title="AGI CTA 1"]'); ?>
+                </div>
+                <div class="col-xs-24 col-md-8 btn-rt">
+                    <a href="#norank-popup" class="servicesbtn open-ten popup-button">
+                        <div class="cbox"><i class="fa fa-check" aria-hidden="true"></i></div>
+                        <span>I'd Like An Audit of How My Business is Doing Online</span></a>
+                </div>
+                <div id="norank-popup" class="white-popup mfp-hide">
+                    <h2><span>Request an Audit Today</span></h2>
+                    <p>Let our SEO, Digital, and Social Media Experts take a look at your site to see what it would take
+                        to get it ranking, seen and advertised online.</p>
+                    <?php echo do_shortcode('[contact-form-7 id="4212" title="AGI CTA 2"]'); ?>
+                </div>
+                <div class="col-xs-24 col-md-8 btn-rt">
+                    <a href="#cta3-popup" class="servicesbtn open-eleven popup-button">
+                        <div class="cbox"><i class="fa fa-check" aria-hidden="true"></i></div>
+                        <span>I'm Ready to Get Started - Contact Me For An Appointment</span></a>
+                </div>
+                <div id="cta3-popup" class="white-popup mfp-hide">
+                    <h2><span>Get Started Today</span></h2>
+                    <p>Let get in touch and get your site ranking!</p>
+                    <?php echo do_shortcode('[contact-form-7 id="4213" title="AGI CTA 3"]'); ?>
+                </div>
+            </div>
+        </section>
+
         <section id="services">
             <div class="container">
                 <div class="row">
@@ -233,7 +278,7 @@ get_header(home); ?>
                                         src="https://www.agims.com/wp-content/uploads/2017/08/search-engine-optimization.png"
                                         style=""></div>
                             <h3 class="shone">Search Engine<br> Optimization</h3>
-                            <span class="ssone"><a href="#seo-popup" class="open-one lbtn">LEARN More</a>Get your website to page one of Google</span>
+                            <span class="ssone"><a href="#seo-popup" class="open-one popup-button lbtn">LEARN More</a>Get your website to page one of Google</span>
                         </div>
                         <div id="seo-popup" class="white-popup mfp-hide">
                             <h2><span>Search Engine Optimization</span></h2>
@@ -249,7 +294,7 @@ get_header(home); ?>
                                         src="https://www.agims.com/wp-content/uploads/2017/08/online-reputation-management.png"
                                         style=""></div>
                             <h3 class="shtwo">Reputation<br> Management</h3>
-                            <span class="sstwo"><a href="#orm-popup" class="open-two lbtn">LEARN More</a>Increase your review count &amp; star ratings to look better than your competition</span>
+                            <span class="sstwo"><a href="#orm-popup" class="open-two popup-button lbtn">LEARN More</a>Increase your review count &amp; star ratings to look better than your competition</span>
                         </div>
                         <div id="orm-popup" class="white-popup mfp-hide">
                             <h2><span>Reputation Management</span></h2>
@@ -265,7 +310,7 @@ get_header(home); ?>
                                         src="https://www.agims.com/wp-content/uploads/2017/08/web-design.png" style="">
                             </div>
                             <h3 class="shthree">Website <br>Management</h3>
-                            <span class="ssthree"><a href="#web-popup" class="open-three lbtn">LEARN More</a>Create &amp; constantly update a modern website with fresh content</span>
+                            <span class="ssthree"><a href="#web-popup" class="open-three popup-button lbtn">LEARN More</a>Create &amp; constantly update a modern website with fresh content</span>
                         </div>
                         <div id="web-popup" class="white-popup mfp-hide">
                             <h2><span>Website Design &amp; Management</span></h2>
@@ -281,7 +326,7 @@ get_header(home); ?>
                                         src="https://www.agims.com/wp-content/uploads/2017/08/social-media.png"
                                         style=""></div>
                             <h3 class="shfour">Social Media<br> Marketing</h3>
-                            <span class="ssfour"><a href="#smm-popup" class="open-four lbtn">LEARN More</a>Engage with &amp; sell to future clients on your social media profiles</span>
+                            <span class="ssfour"><a href="#smm-popup" class="open-four popup-button lbtn">LEARN More</a>Engage with &amp; sell to future clients on your social media profiles</span>
                         </div>
                         <div id="smm-popup" class="white-popup mfp-hide">
                             <h2><span>Social Media Marketing</span></h2>
@@ -297,7 +342,7 @@ get_header(home); ?>
                                         src="https://www.agims.com/wp-content/uploads/2017/08/pay-per-click.png"
                                         style=""></div>
                             <h3 class="shsix">Pay-Per-Click<br> Advertising</h3>
-                            <span class="sssix"><a href="#ppc-popup" class="open-six lbtn">LEARN More</a>Show up on Google above all organic non paid listings</span>
+                            <span class="sssix"><a href="#ppc-popup" class="open-six popup-button lbtn">LEARN More</a>Show up on Google above all organic non paid listings</span>
                         </div>
                         <div id="ppc-popup" class="white-popup mfp-hide">
                             <h2><span>Pay-Per-Click Advertising</span></h2>
@@ -313,7 +358,7 @@ get_header(home); ?>
                                         src="https://www.agims.com/wp-content/uploads/2017/08/display-ads.png" style="">
                             </div>
                             <h3 class="shseven">Display<br> Advertising</h3>
-                            <span class="ssseven"><a href="#disp-popup" class="open-seven lbtn">LEARN More</a>Showcase your ads on websites your potential customers visit daily</span>
+                            <span class="ssseven"><a href="#disp-popup" class="open-seven popup-button lbtn">LEARN More</a>Showcase your ads on websites your potential customers visit daily</span>
                         </div>
                         <div id="disp-popup" class="white-popup mfp-hide">
                             <h2><span>Display Advertising</span></h2>
@@ -329,7 +374,7 @@ get_header(home); ?>
                                         src="https://www.agims.com/wp-content/uploads/2017/08/remarketing.png" style="">
                             </div>
                             <h3 class="sheight">Remarketing /<br> Retargeting</h3>
-                            <span class="sseight"><a href="#rem-popup" class="open-eight lbtn">LEARN More</a>Recapture your clients and visitors with ads based on visits to your site</span>
+                            <span class="sseight"><a href="#rem-popup" class="open-eight popup-button lbtn">LEARN More</a>Recapture your clients and visitors with ads based on visits to your site</span>
                         </div>
                         <div id="rem-popup" class="white-popup mfp-hide">
                             <h2><span>Remarketing</span></h2>
@@ -345,7 +390,7 @@ get_header(home); ?>
                                         src="https://www.agims.com/wp-content/uploads/2017/08/youtube-marketing.png"
                                         style=""></div>
                             <h3 class="shfive">YouTube<br> Marketing</h3>
-                            <span class="ssfive"><a href="#yt-popup" class="open-five lbtn">LEARN More</a>Reach customers through video ads that play before the videos your target audience is watching</span>
+                            <span class="ssfive"><a href="#yt-popup" class="open-five popup-button lbtn">LEARN More</a>Reach customers through video ads that play before the videos your target audience is watching</span>
                         </div>
                         <div id="yt-popup" class="white-popup mfp-hide">
                             <h2><span>YouTube Marketing</span></h2>
@@ -354,46 +399,6 @@ get_header(home); ?>
                         </div>
                     </section>
                     <div style="clear:both;"></div>
-                </div>
-            </div>
-        </section>
-        <section id="question">
-            <div class="container">
-                <div class="col-xs-24">
-                    <h5>
-                        <span>How's your <strong>Digital Presence?</strong> How would you like to interact with us?</span>
-                    </h5>
-                </div>
-                <div class="col-xs-24 col-md-8 btn-lt">
-                    <a href="#noweb-popup" class="servicesbtn open-nine">
-                        <div class="cbox"><i class="fa fa-check" aria-hidden="true"></i></div>
-                        <span>Send Me Some Info About Digital Marketing</span></a>
-                </div>
-                <div id="noweb-popup" class="white-popup mfp-hide">
-                    <h2><span>Get More Information</span></h2>
-                    <p>Get a FREE Digital Marketing Package Review Today!</p>
-                    <?php echo do_shortcode('[contact-form-7 id="4211" title="AGI CTA 1"]'); ?>
-                </div>
-                <div class="col-xs-24 col-md-8 btn-rt">
-                    <a href="#norank-popup" class="servicesbtn open-ten">
-                        <div class="cbox"><i class="fa fa-check" aria-hidden="true"></i></div>
-                        <span>I'd Like An Audit of How My Business is Doing Online</span></a>
-                </div>
-                <div id="norank-popup" class="white-popup mfp-hide">
-                    <h2><span>Request an Audit Today</span></h2>
-                    <p>Let our SEO, Digital, and Social Media Experts take a look at your site to see what it would take
-                        to get it ranking, seen and advertised online.</p>
-                    <?php echo do_shortcode('[contact-form-7 id="4212" title="AGI CTA 2"]'); ?>
-                </div>
-                <div class="col-xs-24 col-md-8 btn-rt">
-                    <a href="#cta3-popup" class="servicesbtn open-eleven">
-                        <div class="cbox"><i class="fa fa-check" aria-hidden="true"></i></div>
-                        <span>I'm Ready to Get Started - Contact Me For An Appointment</span></a>
-                </div>
-                <div id="cta3-popup" class="white-popup mfp-hide">
-                    <h2><span>Get Started Today</span></h2>
-                    <p>Let get in touch and get your site ranking!</p>
-                    <?php echo do_shortcode('[contact-form-7 id="4213" title="AGI CTA 3"]'); ?>
                 </div>
             </div>
         </section>

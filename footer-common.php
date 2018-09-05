@@ -172,198 +172,10 @@ if(is_page('free-audit')){
 <script type="text/javascript" src="https://formalyzer.com/formalyze_call_secure.js"></script> ';
 }
 ?>
-<script>
-    if (screen.width <= 640) {
-        $(document).ready(function(){
-            // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
-            $(".sone").hover(function(){
-                //On Hover - Works on ios
-                $(".sione").hide();
-                $(".shone").hide();
-                $(".spone").hide();
-                $(".ssone").show();
-            }, function(){
-                //Hover Off - Hover off doesn't seem to work on iOS
-                $(".sione").show();
-                $(".shone").show();
-                $(".spone").show();
-                $(".ssone").hide();
-            })
-        });
-        $(document).ready(function(){
-            // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
-            $(".stwo").hover(function(){
-                //On Hover - Works on ios
-                $(".sitwo").hide();
-                $(".shtwo").hide();
-                $(".sptwo").hide();
-                $(".sstwo").show();
-            }, function(){
-                //Hover Off - Hover off doesn't seem to work on iOS
-                $(".sitwo").show();
-                $(".shtwo").show();
-                $(".sptwo").show();
-                $(".sstwo").hide();
-            })
-        });
-        $(document).ready(function(){
-            // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
-            $(".sthree").hover(function(){
-                //On Hover - Works on ios
-                $(".sithree").hide();
-                $(".shthree").hide();
-                $(".spthree").hide();
-                $(".ssthree").show();
-            }, function(){
-                //Hover Off - Hover off doesn't seem to work on iOS
-                $(".sithree").show();
-                $(".shthree").show();
-                $(".spthree").show();
-                $(".ssthree").hide();
-            })
-        });
-        $(document).ready(function(){
-            // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
-            $(".sfour").hover(function(){
-                //On Hover - Works on ios
-                $(".sifour").hide();
-                $(".shfour").hide();
-                $(".spfour").hide();
-                $(".ssfour").show();
-            }, function(){
-                //Hover Off - Hover off doesn't seem to work on iOS
-                $(".sifour").show();
-                $(".shfour").show();
-                $(".spfour").show();
-                $(".ssfour").hide();
-            })
-        });
-        $(document).ready(function(){
-            // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
-            $(".sfive").hover(function(){
-                //On Hover - Works on ios
-                $(".sifive").hide();
-                $(".shfive").hide();
-                $(".spfive").hide();
-                $(".ssfive").show();
-            }, function(){
-                //Hover Off - Hover off doesn't seem to work on iOS
-                $(".sifive").show();
-                $(".shfive").show();
-                $(".spfive").show();
-                $(".ssfive").hide();
-            })
-        });
-        $(document).ready(function(){
-            // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
-            $(".ssix").hover(function(){
-                //On Hover - Works on ios
-                $(".sisix").hide();
-                $(".shsix").hide();
-                $(".spsix").hide();
-                $(".sssix").show();
-            }, function(){
-                //Hover Off - Hover off doesn't seem to work on iOS
-                $(".sisix").show();
-                $(".shsix").show();
-                $(".spsix").show();
-                $(".sssix").hide();
-            })
-        });
-        $(document).ready(function(){
-            // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
-            $(".sseven").hover(function(){
-                //On Hover - Works on ios
-                $(".siseven").hide();
-                $(".shseven").hide();
-                $(".spseven").hide();
-                $(".ssseven").show();
-            }, function(){
-                //Hover Off - Hover off doesn't seem to work on iOS
-                $(".siseven").show();
-                $(".shseven").show();
-                $(".spseven").show();
-                $(".ssseven").hide();
-            })
-        });
-        $(document).ready(function(){
-            // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
-            $(".seight").hover(function(){
-                //On Hover - Works on ios
-                $(".sieight").hide();
-                $(".sheight").hide();
-                $(".speight").hide();
-                $(".sseight").show();
-            }, function(){
-                //Hover Off - Hover off doesn't seem to work on iOS
-                $(".sieight").show();
-                $(".sheight").show();
-                $(".speight").show();
-                $(".sseight").hide();
-            })
-        });
-    }
-</script>
 <!-- Magnific Popup core CSS file -->
 <link rel="stylesheet" href="/wp-content/themes/agi2016/css/magnific-popup.css">
-<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
-<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
 <!-- Magnific Popup core JS file -->
 <script src="/wp-content/themes/agi2016/js/jquery.magnific-popup.min.js"></script>
-<script>
-    $('.open-one').magnificPopup({
-        type:'inline',
-        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-    });
-    $('.open-two').magnificPopup({
-        type:'inline',
-        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-    });
-    $('.open-three').magnificPopup({
-        type:'inline',
-        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-    });
-    $('.open-four').magnificPopup({
-        type:'inline',
-        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-    });
-    $('.open-five').magnificPopup({
-        type:'inline',
-        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-    });
-    $('.open-six').magnificPopup({
-        type:'inline',
-        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-    });
-    $('.open-seven').magnificPopup({
-        type:'inline',
-        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-    });
-    $('.open-eight').magnificPopup({
-        type:'inline',
-        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-    });
-    $('.open-nine').magnificPopup({
-        type:'inline',
-        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-    });
-    $('.open-ten').magnificPopup({
-        type:'inline',
-        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-    });
-    $('.open-eleven').magnificPopup({
-        type:'inline',
-        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-    });
-</script>
-<script>
-    $('#servicesbtn').click(function(){
-        $('html, body').animate({
-            scrollTop: $( $(this).attr('href') ).offset().top
-        }, 500);
-        return false;
-    });
-</script>
 <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
 <script>
     $( document ).ready(function() {
@@ -374,11 +186,136 @@ if(is_page('free-audit')){
             autoStart: false,
             loop: true
         });
-    });
-</script>
 
-<script>
-var LC_API = LC_API || {};
+        $('.popup-button').magnificPopup({
+            type:'inline',
+            midClick: true
+        });
+
+        $('#servicesbtn').click(function(){
+            $('html, body').animate({
+                scrollTop: $( $(this).attr('href') ).offset().top
+            }, 500);
+            return false;
+        });
+
+        if (screen.width <= 640) {
+            // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
+            $(".sone").hover(function () {
+                //On Hover - Works on ios
+                $(".sione").hide();
+                $(".shone").hide();
+                $(".spone").hide();
+                $(".ssone").show();
+            }, function () {
+                //Hover Off - Hover off doesn't seem to work on iOS
+                $(".sione").show();
+                $(".shone").show();
+                $(".spone").show();
+                $(".ssone").hide();
+            });
+            // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
+            $(".stwo").hover(function () {
+                //On Hover - Works on ios
+                $(".sitwo").hide();
+                $(".shtwo").hide();
+                $(".sptwo").hide();
+                $(".sstwo").show();
+            }, function () {
+                //Hover Off - Hover off doesn't seem to work on iOS
+                $(".sitwo").show();
+                $(".shtwo").show();
+                $(".sptwo").show();
+                $(".sstwo").hide();
+            });
+            // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
+            $(".sthree").hover(function () {
+                //On Hover - Works on ios
+                $(".sithree").hide();
+                $(".shthree").hide();
+                $(".spthree").hide();
+                $(".ssthree").show();
+            }, function () {
+                //Hover Off - Hover off doesn't seem to work on iOS
+                $(".sithree").show();
+                $(".shthree").show();
+                $(".spthree").show();
+                $(".ssthree").hide();
+            });
+            // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
+            $(".sfour").hover(function () {
+                //On Hover - Works on ios
+                $(".sifour").hide();
+                $(".shfour").hide();
+                $(".spfour").hide();
+                $(".ssfour").show();
+            }, function () {
+                //Hover Off - Hover off doesn't seem to work on iOS
+                $(".sifour").show();
+                $(".shfour").show();
+                $(".spfour").show();
+                $(".ssfour").hide();
+            });
+            // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
+            $(".sfive").hover(function () {
+                //On Hover - Works on ios
+                $(".sifive").hide();
+                $(".shfive").hide();
+                $(".spfive").hide();
+                $(".ssfive").show();
+            }, function () {
+                //Hover Off - Hover off doesn't seem to work on iOS
+                $(".sifive").show();
+                $(".shfive").show();
+                $(".spfive").show();
+                $(".ssfive").hide();
+            });
+            // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
+            $(".ssix").hover(function () {
+                //On Hover - Works on ios
+                $(".sisix").hide();
+                $(".shsix").hide();
+                $(".spsix").hide();
+                $(".sssix").show();
+            }, function () {
+                //Hover Off - Hover off doesn't seem to work on iOS
+                $(".sisix").show();
+                $(".shsix").show();
+                $(".spsix").show();
+                $(".sssix").hide();
+            });
+            // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
+            $(".sseven").hover(function () {
+                //On Hover - Works on ios
+                $(".siseven").hide();
+                $(".shseven").hide();
+                $(".spseven").hide();
+                $(".ssseven").show();
+            }, function () {
+                //Hover Off - Hover off doesn't seem to work on iOS
+                $(".siseven").show();
+                $(".shseven").show();
+                $(".spseven").show();
+                $(".ssseven").hide();
+            });
+            // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
+            $(".seight").hover(function () {
+                //On Hover - Works on ios
+                $(".sieight").hide();
+                $(".sheight").hide();
+                $(".speight").hide();
+                $(".sseight").show();
+            }, function () {
+                //Hover Off - Hover off doesn't seem to work on iOS
+                $(".sieight").show();
+                $(".sheight").show();
+                $(".speight").show();
+                $(".sseight").hide();
+            });
+        }
+    });
+
+    var LC_API = LC_API || {};
     LC_API.on_chat_started = function()
     {
         // track this chat in Google AdWords
@@ -389,6 +326,5 @@ var LC_API = LC_API || {};
         img.src = 'https://www.googleadservices.com/pagead/conversion/'+google_conversion_id+'/?label='+google_conversion_label+'&script=0';
     };
 </script>
-
 </body>
 </html>

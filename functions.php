@@ -151,6 +151,11 @@ function mycustom_wp_footer()
                         redirectURL = 'thank-you-law-firm';
                         break;
 
+                    case '4697':
+                        // formTitle = 'LP Law Firm';
+                        redirectURL = 'thank-you-free-website';
+                        break;
+
                     default:
                         // formTitle = 'Contact Form';
                         redirectURL = 'thank-you';

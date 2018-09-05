@@ -2,16 +2,12 @@
     <section id="main">
         <div class="container">
             <div class="row">
-                <div class="col-md-18 col-md-offset-3 text-center">
+                <div class="col-xs-24 col-sm-12 text-center">
                     <?php the_content(); ?>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-18 col-md-offset-3 text-center"><h1 class="special">Want more sales?<br
-                                class="visible-xs visible-xxs"/> We're here to help.</h1></div>
-            </div>
-            <div class="row">
-                <div class="col-lg-14 col-lg-offset-5 col-md-16 col-md-offset-4 col-sm-18 col-sm-offset-3"><h2
+                <div class="col-xs-24 col-sm-12 text-center">
+                    <h1 class="special">Want more sales?<br /> We're here to help.</h1>
+                    <h2
                             class="special">Contact us today and see how we can skyrocket your business.</h2>
                     <!-- Contact Form 7 Here --> <?= do_shortcode('[contact-form-7 id="4" title="Contact form 1"]') ?>
                     <!-- END Contact Form 7 -->            </div>
