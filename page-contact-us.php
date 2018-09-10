@@ -6,9 +6,6 @@
                     <?php the_content(); ?>
                 </div>
                 <div class="col-xs-24 col-sm-12 text-center">
-                    <h1 class="special">Want more sales?<br /> We're here to help.</h1>
-                    <h2
-                            class="special">Contact us today and see how we can skyrocket your business.</h2>
                     <!-- Contact Form 7 Here --> <?= do_shortcode('[contact-form-7 id="4" title="Contact form 1"]') ?>
                     <!-- END Contact Form 7 -->            </div>
             </div>

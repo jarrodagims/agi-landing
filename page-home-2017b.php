@@ -113,11 +113,14 @@ get_header(home); ?>
                 </div>
             </div>
         </section>
+
+        <section id="home-cta">
+            <h3>Do you want more phone calls, leads, foot traffic or website traffic?</h3>
+        </section>
         <section id="home-cta" class="home-free-website">
             <div class="container">
                 <div class="row">
                     <div class="col-xxs-24">
-                        <h4>Do you want more phone calls, leads, foot traffic or website traffic?</h4>
                         <h3 class="no-top-margin">Get A Free Website When You Sign Up For An SEO Package</h3>
                         <a href="#freeweb-popup" href="/web-design-management/" class="popup-button btn btn-tertiary btn-rectangle">Learn More</a>
                     </div>
