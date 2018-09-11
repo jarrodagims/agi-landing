@@ -72,8 +72,9 @@
 }
 
 .top-banner {
-  background: #E7453C url('../img/landing/bg-dots.png') right 0 no-repeat;
+  background: #E7453C;
   background-size: auto 100%;
+  border-bottom: 4px solid $sherpa-brand-primary;
 
 
   a {
@@ -95,8 +96,13 @@
     justify-content: center;
     align-items: center;
 
+
     @media screen and (min-width: $screen-md-min) {
-      height: 272px;
+      padding: 3em 0;
+    }
+
+    h1 {
+      margin: 0 0;
     }
   }
 

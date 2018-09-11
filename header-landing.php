@@ -20,17 +20,6 @@ require_once('header-common.php');
     </div>
 </section>
 <section class="top-banner">
-    <div class="sub-header">
-        <div class="container">
-            <div class="flex-row">
-                <div class="flex-col navbar-sherpa hidden-xs">
-                    <ul class="menu-landing nav navbar-nav"><li class="menu-item">Home > Contact</li></ul>
-                </div>
-                <div class="flex-col"><?php echo responsive_bs_menu('landing_a'); ?></div>
-            </div>
-        </div>
-    </div>
-
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center lander-header">
