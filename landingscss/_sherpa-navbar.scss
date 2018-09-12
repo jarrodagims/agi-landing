@@ -181,8 +181,7 @@
     .v-align {
       width: 100%;
       display: flex;
-      justify-content: center;
-
+      justify-content: flex-start;
     }
   }
 }
@@ -248,13 +247,7 @@
   }
 
   @media (max-width: $grid-float-breakpoint-max) {
-    padding-left: 20px;
-    padding-right: 2px;
-    bottom: 3px;
-    position: absolute;
-    top: 73px;
-    z-index: 999;
-    left: 0;
+    margin-left: auto;
   }
 }
 

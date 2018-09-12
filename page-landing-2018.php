@@ -8,10 +8,18 @@
 
 get_header(landing); ?>
 
+    <section class="bg-hero visible-xs">
+        <div class="hero-text">
+            <h1>Let us handle your internet marketing.<br/>
+                <span>So you can focus on <span class="br">what you do <em>best.</em></span></span>
+            </h1>
+        </div>
+    </section>
+    <div class="flex-order">
     <section class="bg-hero">
-        <div class="hero-text"><h1>Let us handle your internet marketing.<br/>
-            <span>So you can focus on what you do <em>best.</em></span>
-        </h1></div>
+        <div class="hero-text hidden-xs"><h1>Let us handle your internet marketing.<br/>
+                <span>So you can focus on <span class="br">what you do <em>best.</em></span></span>
+            </h1></div>
 
         <section class="three-columns">
             <div class="container-fluid">
@@ -50,54 +58,63 @@ get_header(landing); ?>
         <section class="three-columns">
             <div class="container-fluid">
                 <div class="row flex-row">
-                    <div class="flex-col">
-
-
-                        <div class="testimonial"><span class="testrib">Check out their testimonial below</span>
+                    <div class="flex-col cycle-slideshow"
+                         data-cycle-fx="scrollHorz"
+                         data-cycle-reverse="true"
+                         data-cycle-timeout="0"
+                         data-index="1"
+                    >
+                        <div class="testimonial" ><span class="testrib ">Check out their testimonial below</span>
                             <div class="extra-padding"><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-scott.png"
-                                             alt="Scott's Heating and Cooling"/></a>
-                            <p>“We are more than glad to talk about the current marketing company we use, AGI Marketing. We have been a client of AGI’s a multitude of years and are not only pleased with their service, we are now the TOP company in our area and surrounding in the HVAC industry. Anything Internet, social media, IT, and all around tech service - AGI is a MUST!!!!”</p>
+                                                                        alt="Scott's Heating and Cooling"/></a>
+                                <p>“We are more than glad to talk about the current marketing company we use, AGI Marketing. We have been a client of AGI’s a multitude of years and are not only pleased with their service, we are now the <span>TOP company</span> in our area and surrounding in the HVAC industry. Anything Internet, social media, IT, and all around tech service - AGI is a MUST!!!!”</p>
 
-                            <p class="author">
-                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/ratings.png" alt="5 Star rating"/>
-                                <strong>Adrian Arreola</strong><br />
-                                <em>Scott Heating & Cooling</em></p></div>
+                                <p class="author">
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/ratings.png" alt="5 Star rating" height="13" />
+                                    <strong>Adrian Arreola</strong><br />
+                                    <em>Scott Heating & Cooling</em></p></div>
 
 
                         </div>
                     </div>
-                    <div class="flex-col">
-
-                        <div class="testimonial"><span class="testrib">Check out their testimonial below</span>
+                    <div class="flex-col cycle-slideshow"
+                         data-cycle-fx="scrollHorz"
+                         data-cycle-reverse="true"
+                         data-cycle-timeout="0"
+                         data-index="1">
+                        <div class="testimonial"><span class="testrib hidden-xs">Check out their testimonial below</span>
                             <div class="extra-padding"><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-mech.png"
-                                             height="36" alt="EP Mech Tech"/></a>
-                            <p>“We are more than glad to talk about the current marketing company we use, AGI Marketing. We have been a client of AGI’s a multitude of years and are not only pleased with their service, we are now the TOP company in our area and surrounding in the HVAC industry. Anything Internet, social media, IT, and all around tech service - AGI is a MUST!!!!”</p>
+                                                                        height="36" alt="EP Mech Tech"/></a>
+                                <p>“We are more than glad to talk about the current marketing company we use, AGI Marketing. We have been a client of AGI’s a multitude of years and are not only pleased with their service, we are now the TOP company in our area and surrounding in the HVAC industry. Anything Internet, social media, IT, and all around tech service - AGI is a MUST!!!!”</p>
 
                                 <p class="author">
-                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/ratings.png" alt="5 Star rating"/>
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/ratings.png" alt="5 Star rating" height="13"  />
                                     <strong>Jaime Zubiate</strong><br />
-                                <em>Mechanical Technologies Air Conditioning/Refrigeration</em></p></div>
+                                    <em>Mechanical Technologies Air Conditioning/Refrigeration</em></p></div>
                         </div>
                     </div>
-                    <div class="flex-col">
-
-                        <div class="testimonial"><span class="testrib">Check out their testimonial below</span>
+                    <div class="flex-col cycle-slideshow"
+                         data-cycle-fx="scrollHorz"
+                         data-cycle-reverse="true"
+                         data-cycle-timeout="0"
+                         data-index="1">
+                        <div class="testimonial">
+                            <span class="testrib hidden-xs">Check out their testimonial below</span>
                             <div class="extra-padding"><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-diaz.png"
-                                             alt="Diaz Services"/></a>
-                            <p>“I am ecstatic with AGI’s services. Since bringing them onboard the phone keeps ringing. Marketing material is superb and engaging. All my marketing questions are answered in a timely manner and are backed up by data.”</p>
+                                                                        alt="Diaz Services"/></a>
+                                <p>“I am ecstatic with AGI’s services. Since bringing them onboard the phone keeps ringing. Marketing material is superb and engaging. All my marketing questions are answered in a timely manner and are backed up by data.”</p>
 
                                 <p class="author">
-                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/ratings.png" alt="5 Star rating"/>
+                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/ratings.png" alt="5 Star rating" height="13" />
                                     <strong>Rodrigo Diaz</strong><br />
-                                <em>Diaz Services</em></p></div>
+                                    <em>Diaz Services</em></p></div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
     </section>
-
-
+</div>
 <!---->
 <!--    <section class="phone-section">-->
 <!--        <div class="container">-->

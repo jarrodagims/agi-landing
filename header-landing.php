@@ -20,11 +20,21 @@ require_once('header-common.php');
     </div>
 </section>
 <section class="top-banner">
+
+<!--    <div class="sub-header visible-xs">-->
+<!--        <div class="container">-->
+<!--            <div class="flex-row">-->
+<!--                <div class="flex-col navbar-sherpa hidden-xs">-->
+<!--                </div>-->
+<!--                <div class="flex-col">--><?php //echo responsive_bs_menu('landing_a'); ?><!--</div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center lander-header">
                 <h1>
-                    <span>HVAC</span> Marketing. More Jobs For Your Company
+                    <span class="brand">HVAC</span> Marketing. <span class="br">More Jobs For Your Company</span>
                 </h1>
             </div>
         </div>
