@@ -2,7 +2,7 @@
 require_once('header-common.php');
 ?>
 <link rel='stylesheet' id='sherpa_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Raleway%3A200%2C500%2C700%7CRoboto%3A300%2C400%2C500%7CMontserrat%3A300%2C400%2C600%2C800&#038;ver=4.9.8' type='text/css' media='all' />
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js" type="text/javascript"></script>
 <section class="top-header">
     <div class="container">
         <div class="row flex-row">

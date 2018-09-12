@@ -23,7 +23,11 @@ get_header(landing); ?>
 
         <section class="three-columns">
             <div class="container-fluid">
-                <div class="row flex-row">
+                <div class="row flex-row cycle-slideshow"
+                     data-cycle-fx="scrollHorz"
+                     data-cycle-timeout="2000"
+                     data-cycle-slides="> div"
+                     data-index="1">
                     <div class="flex-col">
 
                         <div class="screen scotts">
@@ -57,14 +61,15 @@ get_header(landing); ?>
     <section class="bg-hero bg-testimonials">
         <section class="three-columns">
             <div class="container-fluid">
-                <div class="row flex-row">
-                    <div class="flex-col cycle-slideshow"
-                         data-cycle-fx="scrollHorz"
-                         data-cycle-reverse="true"
-                         data-cycle-timeout="0"
-                         data-index="1"
-                    >
-                        <div class="testimonial" ><span class="testrib ">Check out their testimonial below</span>
+                <span class="testrib ">Check out their testimonial below</span>
+                <div class="row flex-row cycle-slideshow"
+                     data-cycle-fx="scrollHorz"
+                     data-cycle-timeout="2000"
+                     data-cycle-slides="> div"
+                     data-index="1"
+                >
+                    <div class="flex-col">
+                        <div class="testimonial" ><span class="testrib hidden-xs">Check out their testimonial below</span>
                             <div class="extra-padding"><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-scott.png"
                                                                         alt="Scott's Heating and Cooling"/></a>
                                 <p>“We are more than glad to talk about the current marketing company we use, AGI Marketing. We have been a client of AGI’s a multitude of years and are not only pleased with their service, we are now the <span>TOP company</span> in our area and surrounding in the HVAC industry. Anything Internet, social media, IT, and all around tech service - AGI is a MUST!!!!”</p>
@@ -77,11 +82,7 @@ get_header(landing); ?>
 
                         </div>
                     </div>
-                    <div class="flex-col cycle-slideshow"
-                         data-cycle-fx="scrollHorz"
-                         data-cycle-reverse="true"
-                         data-cycle-timeout="0"
-                         data-index="1">
+                    <div class="flex-col">
                         <div class="testimonial"><span class="testrib hidden-xs">Check out their testimonial below</span>
                             <div class="extra-padding"><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-mech.png"
                                                                         height="36" alt="EP Mech Tech"/></a>
@@ -93,11 +94,7 @@ get_header(landing); ?>
                                     <em>Mechanical Technologies Air Conditioning/Refrigeration</em></p></div>
                         </div>
                     </div>
-                    <div class="flex-col cycle-slideshow"
-                         data-cycle-fx="scrollHorz"
-                         data-cycle-reverse="true"
-                         data-cycle-timeout="0"
-                         data-index="1">
+                    <div class="flex-col">
                         <div class="testimonial">
                             <span class="testrib hidden-xs">Check out their testimonial below</span>
                             <div class="extra-padding"><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-diaz.png"
