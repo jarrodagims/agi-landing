@@ -34,7 +34,7 @@ require_once('header-common.php');
         <div class="row">
             <div class="col-xs-12 text-center lander-header">
                 <h1>
-                    <span class="brand">HVAC</span> Marketing. <span class="br">More Jobs For Your Company</span>
+                    <span class="brand">HVAC</span> Marketing. <span class="br">More Jobs For Your Company.</span>
                 </h1>
             </div>
         </div>

@@ -87,6 +87,11 @@ background: #E7453C;
 
     span {
       color: $sherpa-brand-primary;
+     
+    }
+
+    span.brand {
+       letter-spacing: -3px;
     }
   }
 
@@ -95,19 +100,29 @@ background: #E7453C;
     justify-content: center;
     align-items: center;
 
+    h1 {
+      font-size: 21px;
+      line-height: 1.25;
+      
+      span {
+        letter-spacing: 0;
+      }
+    }
 
     @media screen and (min-width: $screen-md-min) {
       padding: 3em 0;
-    }
 
-    h1 {
-      margin: 0 0;
-      font-weight: 400;
+      h1 {
+        margin: 0 0;
+        font-weight: 400; 
+        font-size: 44px;
 
-      span.br {
-        color: $white;
+        span.br {
+          color: $white;
+        }
       }
     }
+
   }
 
   @media screen and (max-width: $screen-sm-max) {
@@ -126,7 +141,7 @@ background: #E7453C;
       }
 
     .lander-header {
-       padding: 3em 0;
+       padding: 3em 0 1.5em;
     }
   }
 }

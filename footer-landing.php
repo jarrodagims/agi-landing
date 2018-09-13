@@ -1,5 +1,21 @@
 <section class="google-partner text-center">
+    <ul class="icons visible-xs visible-sm">
+        <li><img
+                        src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-scott.png"
+                        alt="Scott's Heating and Cooling"/></li>
 
+        <li><img
+                        src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/mech-tech-hot.png"
+                        height="36" alt="EP Mech Tech"/></li>
+
+        <li><img
+                        src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/diaz-hot.png"
+                        alt="Diaz Services"/></li>
+
+        <li><img
+                        src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/bg-hot.png"
+                        alt="B & G Air Conditioning"/></li>
+    </ul>
     <ul class="google-colors">
         <li></li>
         <li></li>
@@ -10,7 +26,10 @@
     </ul>
 
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/google-partner.png"
-         alt="A Google Partner Agency"/>
+         alt="A Google Partner Agency" class="hidden-xs" />
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/google-partner-small.png"
+         alt="A Google Partner Agency" class="visible-xs" />
+
 </section>
 
 <section id="map-section">
@@ -33,11 +52,11 @@
                     <strong>PH.</strong> 915-209-5381<br />
                     1370 Pullman Dr, Ste. G, El Paso, TX 79936</p>
 
-                <a href="">
+                <a href="https://www.agims.com/conact-us/">
                     <button class="btn btn-success">Send Me Some Info About Digital Marketing</button>
                 </a>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 hidden-xs">
                 <div class="flex-row">
 
                     <div class="flex-col"><span class="title">PAGES</span>
@@ -85,7 +104,9 @@
             </div>
             <div class="col-md-6 col-xs-12 copyright"><p>Privacy Policy   |   Site Copyright &copy; 2018 <img
                             src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-footer.png"
-                            alt="AGI Marketing" /></p></div>
+                            alt="AGI Marketing" class="hidden-xs" /><img
+                            src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-footer-black.png"
+                            alt="AGI Marketing" class="visible-xs" /></p></div>
         </div>
     </div>
 </footer>
@@ -150,6 +171,36 @@ chosen link or button. -->
         var sf14g = document.createElement('script'); sf14g.type = 'text/javascript'; sf14g.async = true;
         sf14g.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 't.sf14g.com/sf14g.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sf14g, s);
+    })();
+</script>
+<script>
+    (function() {
+    //Only do slideshow on small screens
+    var timeout;
+    window.addEventListener('resize', function ( event ) {
+        if (timeout) {
+            window.cancelAnimationFrame(timeout);
+        }
+        timeout = window.requestAnimationFrame(function () {
+            initializeSlideShow();
+        });
+    }, false);
+
+    function initializeSlideShow() {
+        if ($(window).width() < 768) {
+            $('.slideshow').cycle({
+                timeout: 2000
+            });
+
+            $('#online-marketing-inside').appendTo('#online-marketing-move-to');
+        }
+        else if ($(window).width() > 768) {
+            $('.slideshow').cycle('destroy');
+            $('#online-marketing-inside').appendTo('#online-marketing-move');
+        }
+    }
+
+    initializeSlideShow();
     })();
 </script>
 </body>

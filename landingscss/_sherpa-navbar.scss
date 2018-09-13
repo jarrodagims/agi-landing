@@ -162,11 +162,12 @@
   @media screen and (min-width: $grid-float-breakpoint-max) {
     padding-top: 18px;
     text-align: center;
+    padding-bottom: 18px;
   }
 
   @media screen and (min-width: $screen-md-min) {
-    padding-top: 113px;
-    padding-bottom: 30px;
+    padding-top: 73px;
+    padding-bottom: 30px; 
   }
 
   @media screen and (max-width: $grid-float-breakpoint-max) {
@@ -182,6 +183,7 @@
       width: 100%;
       display: flex;
       justify-content: flex-start;
+      align-items: center;
     }
   }
 }
@@ -690,16 +692,7 @@
         color: #fff; 
       }
 
-       @media screen and (max-width: $grid-float-breakpoint-max) {
-        &.directions a {
-          @include svg-map(ffffff);
-        }
-
-        &.contact a {
-          @include svg-contact(ffffff);
-          margin-right: 0;
-        }
-      } 
+      
     }
 
    

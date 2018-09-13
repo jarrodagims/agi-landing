@@ -22,8 +22,10 @@ get_header(landing); ?>
             </h1></div>
 
         <section class="three-columns">
+
             <div class="container-fluid">
-                <div class="row flex-row cycle-slideshow"
+
+                <div class="row flex-row slideshow"
                      data-cycle-fx="scrollHorz"
                      data-cycle-timeout="2000"
                      data-cycle-slides="> div"
@@ -33,25 +35,34 @@ get_header(landing); ?>
                         <div class="screen scotts">
 
                         </div>
-                        <a href="" target="_blank">
+                        <a href="https://www.schdm.com/" target="_blank">
                             <button class="btn btn-primary">See Website</button>
                         </a>
+                        <span class="testrib hidden-xs hidden-sm">Check out their testimonial below</span>
+
+
                     </div>
                     <div class="flex-col">
                         <div class="screen epmechtech">
 
                         </div>
-                        <a href="" target="_blank">
+                        <a href="https://www.epmechtech.com/" target="_blank">
                             <button class="btn btn-primary">See Website</button>
                         </a>
+                        <span class="testrib hidden-xs hidden-sm">Check out their testimonial below</span>
+
+
                     </div>
                     <div class="flex-col">
                         <div class="screen diaz">
 
                         </div>
-                        <a href="" target="_blank">
+                        <a href="http://diazservicesep.com/" target="_blank">
                             <button class="btn btn-primary">See Website</button>
                         </a>
+                        <span class="testrib hidden-xs hidden-sm">Check out their testimonial below</span>
+
+
                     </div>
                 </div>
             </div>
@@ -59,17 +70,20 @@ get_header(landing); ?>
     </section>
 
     <section class="bg-hero bg-testimonials">
+
+
         <section class="three-columns">
+            <div class="testrib visible-xs visible-sm">Check out our testimonials below</div>
+
             <div class="container-fluid">
-                <span class="testrib ">Check out their testimonial below</span>
-                <div class="row flex-row cycle-slideshow"
+                <div class="row flex-row slideshow"
                      data-cycle-fx="scrollHorz"
                      data-cycle-timeout="2000"
                      data-cycle-slides="> div"
                      data-index="1"
                 >
                     <div class="flex-col">
-                        <div class="testimonial" ><span class="testrib hidden-xs">Check out their testimonial below</span>
+                        <div class="testimonial" >
                             <div class="extra-padding"><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-scott.png"
                                                                         alt="Scott's Heating and Cooling"/></a>
                                 <p>“We are more than glad to talk about the current marketing company we use, AGI Marketing. We have been a client of AGI’s a multitude of years and are not only pleased with their service, we are now the <span>TOP company</span> in our area and surrounding in the HVAC industry. Anything Internet, social media, IT, and all around tech service - AGI is a MUST!!!!”</p>
@@ -83,7 +97,7 @@ get_header(landing); ?>
                         </div>
                     </div>
                     <div class="flex-col">
-                        <div class="testimonial"><span class="testrib hidden-xs">Check out their testimonial below</span>
+                        <div class="testimonial">
                             <div class="extra-padding"><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-mech.png"
                                                                         height="36" alt="EP Mech Tech"/></a>
                                 <p>“We are more than glad to talk about the current marketing company we use, AGI Marketing. We have been a client of AGI’s a multitude of years and are not only pleased with their service, we are now the TOP company in our area and surrounding in the HVAC industry. Anything Internet, social media, IT, and all around tech service - AGI is a MUST!!!!”</p>
@@ -96,7 +110,6 @@ get_header(landing); ?>
                     </div>
                     <div class="flex-col">
                         <div class="testimonial">
-                            <span class="testrib hidden-xs">Check out their testimonial below</span>
                             <div class="extra-padding"><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-diaz.png"
                                                                         alt="Diaz Services"/></a>
                                 <p>“I am ecstatic with AGI’s services. Since bringing them onboard the phone keeps ringing. Marketing material is superb and engaging. All my marketing questions are answered in a timely manner and are backed up by data.”</p>
@@ -112,62 +125,13 @@ get_header(landing); ?>
         </section>
     </section>
 </div>
-<!---->
-<!--    <section class="phone-section">-->
-<!--        <div class="container">-->
-<!--            <div class="row">-->
-<!--                <div class="col-md-6">-->
-<!--                    <img src="--><?php //echo get_stylesheet_directory_uri(); ?><!--/img/landing/phone.png" alt="Scott's HVAC"/>-->
-<!--                </div>-->
-<!---->
-<!--                <div class="col-md-6">-->
-<!--                    <h2>Meet One of Our Clients: <br/>-->
-<!--                        Scott Heating & Cooling</h2>-->
-<!---->
-<!--                    <p>At AGI Marketing, we’ve helped numerous clients grow their business by leveraging the internet. We’ve helped Scott Heating & Cooling, an HVAC company, market themselves online by creating an attractive website that’s mobile friendly, improving their social media presence, writing quality blogs, and managing their online ad campaigns.-->
-<!--                    </p>-->
-<!---->
-<!--                    <div class="ribbon squiggle">-->
-<!--                        <span class="ribbon-header">Check out their testimonial below:</span>-->
-<!--                    </div>-->
-<!---->
-<!--                    <p class="testimonial">“We are more than glad to talk about the current marketing company we use,-->
-<!--                        AGI Marketing. We have been a client of AGI’s a multitude of years and are not only pleased with-->
-<!--                        their service, we are now the <span>TOP company</span> in our area and surrounding in the HVAC industry.-->
-<!--                        Anything Internet, social media, IT, and all around tech service - AGI is a MUST!!!!”</p>-->
-<!--                    <img src="--><?php //echo get_stylesheet_directory_uri(); ?><!--/img/landing/ratings.png"-->
-<!--                         alt="5 Star rating"/><br/>-->
-<!--                    <p class="byline"><strong>Adrian Arreola</strong><br/>-->
-<!--                        <em>Scott Heating & Cooling</em></p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <section class="buttons">-->
-<!--            <div class="container">-->
-<!--                <div class="flex-row">-->
-<!--                    <div class="flex-col">-->
-<!--                        <a href="#"><img src="--><?php //echo get_stylesheet_directory_uri(); ?><!--/img/landing/logo-scott.png"-->
-<!--                                         alt="Scott's Heating and Cooling"/></a>-->
-<!--                    </div>-->
-<!--                    <div class="flex-col">-->
-<!--                        <a href="#"><img src="--><?php //echo get_stylesheet_directory_uri(); ?><!--/img/landing/logo-mech.png"-->
-<!--                                         height="36" alt="EP Mech Tech"/></a>-->
-<!--                    </div>-->
-<!--                    <div class="flex-col">-->
-<!--                        <a href="#"><img src="--><?php //echo get_stylesheet_directory_uri(); ?><!--/img/landing/logo-diaz.png"-->
-<!--                                         alt="Diaz Services"/></a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </section>-->
-<!--    </section>-->
-
-
+    <div class="flex-order">
     <section class="landing-form">
         <div class="container">
             <div class="col-md-7 col-lg-8">
-                <h2><span>Online Marketing:</span>
-                    Why It’s a Great Idea for HVAC Companies</h2>
+                <div class="extra-padding" id="online-marketing-move">
+                    <div id="online-marketing-inside"><h2><span class="brand">Online Marketing:</span>
+                            <span class="br">Why It’s a Great Idea for HVAC Companies</span></h2>
                 <p class="blurb">When it comes to owning a business in the HVAC industry, competition is fierce. A great
                     way to get your business ahead of the game is to utilize the internet to market your products and
                     services.</p>
@@ -180,7 +144,8 @@ get_header(landing); ?>
                     can show up at the top of Google search engine result pages, on Google maps, across social media
                     platforms, and in paid advertising spots. You’ll want to be sure your company is being marketed
                     organically and through paid advertisements while also complying with Google’s policies. At AGI
-                    Marketing, we can do that for you and more.</p>
+                    Marketing, we can do that for you and more.</p></div>
+                </div>
             </div>
             <div class="col-md-4 col-lg-4 col-xs-12">
                 <div class="sidebar" id="sidebar">
@@ -201,7 +166,7 @@ get_header(landing); ?>
                     <ul class="icon-row flex-row">
                         <li class="flex-col">
 
-                            <a href="">
+                            <a href="https://www.agims.com/contact-us/">
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                      viewBox="0 0 25.5 25" enable-background="new 0 0 25.5 25" xml:space="preserve">
@@ -244,7 +209,7 @@ get_header(landing); ?>
                         </li>
                         <li class="flex-col">
 
-                            <a href="">
+                            <a href="https://www.agims.com/contact-us/">
                                 <svg class="no-margin" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                      viewBox="0 0 47 21" enable-background="new 0 0 47 21" xml:space="preserve">
@@ -265,7 +230,7 @@ get_header(landing); ?>
                         </li>
                         <li class="flex-col">
 
-                            <a href="">
+                            <a href="https://www.agims.com/contact-us/">
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                      viewBox="0 0 22 24.6" enable-background="new 0 0 22 24.6" xml:space="preserve">
@@ -312,7 +277,7 @@ get_header(landing); ?>
                                 Search Engine Optimization</a>
                         </li>
                         <li class="flex-col">
-                            <a href="">
+                            <a href="https://www.agims.com/contact-us/">
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                      viewBox="0 0 25.5 21.7" enable-background="new 0 0 25.5 21.7" xml:space="preserve">
@@ -343,7 +308,7 @@ get_header(landing); ?>
                                 Remarketing/<br/>Retargeting</a>
                         </li>
                         <li class="flex-col">
-                            <a href="">
+                            <a href="https://www.agims.com/contact-us/">
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                      viewBox="0 0 18.8 19.4" enable-background="new 0 0 18.8 19.4" xml:space="preserve">
@@ -375,7 +340,7 @@ get_header(landing); ?>
                                 Social Media Marketing</a>
                         </li>
                         <li class="flex-col">
-                            <a href="">
+                            <a href="https://www.agims.com/contact-us/">
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                      viewBox="0 0 22.3 19.5" enable-background="new 0 0 22.3 19.5" xml:space="preserve">
@@ -413,7 +378,7 @@ get_header(landing); ?>
                                 Reputation Management</a>
                         </li>
                         <li class="flex-col">
-                            <a href="">
+                            <a href="https://www.agims.com/contact-us/">
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                      viewBox="0 0 22.5 16" enable-background="new 0 0 22.5 16" xml:space="preserve">
@@ -438,7 +403,7 @@ get_header(landing); ?>
                                 Youtube Marketing</a>
                         </li>
                         <li class="flex-col">
-                            <a href="">
+                            <a href="https://www.agims.com/contact-us/">
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                      viewBox="0 0 28.3 19" enable-background="new 0 0 28.3 19" xml:space="preserve">
@@ -465,7 +430,7 @@ get_header(landing); ?>
                                 Pay-Per-Click Advertising</a>
                         </li>
                         <li class="flex-col">
-                            <a href="">
+                            <a href="https://www.agims.com/contact-us/">
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                      viewBox="0 0 27.2 19.8" enable-background="new 0 0 27.2 19.8" xml:space="preserve">
@@ -505,13 +470,15 @@ get_header(landing); ?>
                         <div class="ribbon-header">Some of the ways we will help you market yourself online include:
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
     </section>
 
     <section class="list-section">
-
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/smiling-woman-loves-her-phone.jpg"
+             alt="AGI Marketing" class="visible-xs visible-sm"/>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -536,8 +503,8 @@ get_header(landing); ?>
         <div class="container">
             <div class="row flex-row">
                 <div class="col-md-7 col-lg-8 col-xs-12 flex-col">
-                    <div class="extra-padding"><h2>What does this mean for you?
-                            <span>More...</span>
+                    <div class="extra-padding"><h2>What does this mean <span class="br">for you?</span>
+                            <span class="brand">More...</span>
                         </h2>
 
                         <ul class="icons">
@@ -1062,9 +1029,11 @@ get_header(landing); ?>
                             </li>
                         </ul>
 
-                        <p class="blurb">Marketing your business online is important because that’s how most potential
+                        <div id="online-marketing-move-to"></div>
+
+                        <div class="bg-gray"><p class="blurb">Marketing your business online is important because that’s how most potential
                             clients will find you.<br/>
-                            <strong>Nobody picks up a phonebook anymore. </strong>
+                                <strong>Nobody picks up a <span class="br">phonebook anymore.</span></strong>
                         </p>
 
 
@@ -1074,24 +1043,24 @@ get_header(landing); ?>
                             They’re
                             going to whip out their smartphones and Google something like <strong>“air conditioner
                                 repair.”</strong> This is when
-                            you want your company to come up. With us, it will. </p>
+                            you want your company to come up. With us, it will. </p></div>
 
-                        <ul class="icons">
-                            <li><a href="#"><img
+                        <ul class="icons hidden-xs hidden-sm">
+                            <li><img
                                             src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-scott.png"
-                                            alt="Scott's Heating and Cooling"/></a></li>
+                                            alt="Scott's Heating and Cooling"/></li>
 
-                            <li><a href="#"><img
+                            <li><img
                                             src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/mech-tech-hot.png"
-                                            height="36" alt="EP Mech Tech"/></a></li>
+                                            height="36" alt="EP Mech Tech"/></li>
 
-                            <li><a href="#"><img
+                            <li><img
                                             src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/diaz-hot.png"
-                                            alt="Diaz Services"/></a></li>
+                                            alt="Diaz Services"/></li>
 
-                            <li><a href="#"><img
+                            <li><img
                                             src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/bg-hot.png"
-                                            alt="B & G Air Conditioning"/></a></li>
+                                            alt="B & G Air Conditioning"/></li>
                         </ul>
                     </div>
                 </div>
@@ -1116,6 +1085,6 @@ get_header(landing); ?>
         </div>
     </section>
 
-
+    </div>
 <?php
 get_footer(landing);

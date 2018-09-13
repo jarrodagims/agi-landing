@@ -19,6 +19,7 @@
     font-size: 16px;
     color: $white;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
   }
 
   h4 {
@@ -216,10 +217,7 @@
   @media screen and (max-width: $screen-sm-max) {
 
     &::before {
-      border-width: 0 100% 50px 100%;
-      left: 50%;
-      transform: translateX(-50%);
-       
+      display: none;
     }
   }
 
@@ -284,6 +282,7 @@
         border: 0;
         color: $white; 
         transition: all 0.3s ease-in-out; 
+        font-weight: 600;
 
         &:hover {
           background: $sherpa-brand-primary;
@@ -366,6 +365,11 @@
 
 #contact-form {
   background: #000;
+
+  @media screen and (max-width: $screen-sm-max) {
+    padding-top: 2em !important;
+    margin-bottom: 0 !important;
+  }
 
   @media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
     margin-bottom: 3em;

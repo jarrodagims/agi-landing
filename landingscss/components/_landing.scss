@@ -28,7 +28,7 @@
     justify-content: center;
     align-items: center;
     color: $white;
-    padding: 108px;
+    padding: 83px 108px 88px;
   }
 
   .screen {
@@ -36,19 +36,19 @@
 
 
     &.scotts {
-      background: url('../img/landing/screen-scott.jpg') center 0 no-repeat;
+      background: url('../img/landing/screen-scott.jpg') center center no-repeat;
       background-size: contain;
 
     }
 
     &.diaz {
-      background: url('../img/landing/screen-diaz.jpg') center 0 no-repeat;
+      background: url('../img/landing/screen-diaz.jpg') center center no-repeat;
       background-size: contain;
 
     }
 
     &.epmechtech {
-      background: url('../img/landing/screen-mechtech.jpg') center 0 no-repeat;
+      background: url('../img/landing/screen-mechtech.jpg') center center no-repeat;
       background-size: contain;
 
     }
@@ -59,7 +59,8 @@
     color: $white;
     text-align: center;
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.3;
 
     em {
       font-style: normal;
@@ -69,8 +70,7 @@
     span {
       font-weight: 500;
       font-size: 43px;
-      margin-top: .25em;
-      display: block;
+      letter-spacing: -3px;
     }
   }
 
@@ -95,6 +95,8 @@
   	outline: 0 !important;
   	box-shadow: none !important;
   	margin-bottom: 30px;
+  	padding: 2em 4em;
+  	margin-top: 3em;
   }
 
   .testimonial {
@@ -152,9 +154,18 @@
   	text-align: center;
   	font-style: normal;
   	padding: 20px;
+  	width: 100%;
   }
 
   @media screen and (max-width: $screen-sm-max) {
+
+  	.btn {
+  		padding: 17px 50px;
+  	}
+
+  	&.bg-testimonials {
+		padding-bottom: 1em;
+  	}
 
   	.flex-col {
   		width: 100%;
@@ -164,23 +175,35 @@
 
   	.testrib {
   		font-size: 16px;
+  		width: 100%;
+  		display: block;
   	}
 
   	padding: 0 0;
 
 	> div {
-		padding: 2em 0;
+		padding: 2.5em 0;
 		background: url('../img/landing/bg-hero.jpg') 0 0 no-repeat;
 		background-size: cover;
 	} 
 
 	h1 {
 		font-size: 14px;
+		margin: 0 0;
+		line-height: 2;
+		letter-spacing: 0;
 
 		span {
 			font-size: 21px;
 			margin-top: 0.5em;
 			line-height: 1em;
+			letter-spacing: -1px;
+			line-height: 1; 
+			display: block;
+		}
+
+		.br {
+			display: block;
 		}
 	}
   }
@@ -248,18 +271,27 @@ h2 {
   	}
 
   	.ribbon-header {
-  		margin: 0 0;
-  		padding: 1.25em 0 1.5em;
+		margin: 0 0;
+		padding: 1.25em 0 1.5em;
   	}
   }
 
-  @media screen and (max-width: $grid-float-breakpoint-max) {
+  @media screen and (max-width: $screen-sm-max) {
   	text-align: center;
+  	@include gradient();
+  	margin-left: -15px;
+  	margin-right: -15px;
+  	padding: 0 1em;
+
+  	&:after {
+  		display: none;
+  	}
   }
 }
 
 .ribbon-section {
 	overflow: hidden;
+	
 }
 
 .phone-section {
@@ -519,6 +551,31 @@ h2 {
   .row .check-list ul {
     padding-left: 0;
   }
+
+  @media screen and (max-width: $screen-sm-max) {
+  	background: #F4F4F4;
+  	@include dropshadow();
+  	img {
+  		margin: 0 auto;
+  	}
+
+  	ul.check-list {
+		margin: 43px 0;
+		padding-left: 35px;
+
+		li:before {
+			width: 10px;
+			height: 10px;
+		}
+  	}
+  }
+
+  @media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+	
+	@include nodropshadow();
+	width: 750px;
+	margin: 0 auto;
+  }
 }
 
 
@@ -527,7 +584,7 @@ h2 {
 
   p {
     font-weight: 300;
-    color: #8E8E8E;
+    color: #606060;
     font-family: 'Roboto', sans-serif;
   }
 
@@ -543,12 +600,17 @@ h2 {
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.35;
+    color: #606060;
 
     span {
       font-size: 33px;
       display: block;
-      color: $sherpa-brand-primary;
-      font-family: 'Raleway', sans-serif;
+
+      &.brand {
+      	color: $sherpa-brand-primary;
+      	font-family: 'Raleway', sans-serif;
+      	font-weight: 400;
+      }
     }
 
     &.more-margin {
@@ -556,9 +618,18 @@ h2 {
     }
   }
 
-  @media screen and (max-width: $grid-float-breakpoint-max) {
+  @media screen and (max-width: $screen-sm-max) {
   	text-align: center;
-  	margin-top: 2em;
+  	margin-top: 0;
+
+  	h2 {
+  		color: #606060;
+  		font-size: 23px !important;
+
+  		span {
+  			font-size: 23px !important;
+  		}
+  	}
 
   	.container {
   		padding: 0 0;
@@ -605,10 +676,17 @@ p {
   }
 
   @media screen and (max-width: $screen-sm-max) {
-  	margin-top: 2em; 
+  	background: none;
+  	@include nodropshadow();
+  	padding: 0 20px 2em;
+  	background: #FFF;
+
+  	h2 {
+  		margin-bottom: 1em;
+  	}
   	
   	.btn {
-  		padding: 2em;
+  		padding: 17px 50px;
   	}
   }
 }
@@ -620,10 +698,13 @@ p {
 	
   h2 {
     font-family: 'Montserrat', sans-serif;
+    color: #606060;
 
     span {
-      color: $sherpa-brand-primary;
-      display: block;
+      
+      &.brand {
+      	color: $sherpa-brand-primary;
+      }
     }
   }
 
@@ -638,11 +719,83 @@ p {
   }
 
   @media screen and (max-width: $screen-sm-max) {
-  	padding-top: 0;
+  	padding-top: 1.25em;
+  	padding-bottom: 0;
+
+  	span.br {
+		display: block;
+	}
+
+  	#online-marketing-inside {
+  		
+  		text-align: center;
+
+  		p.blurb {
+  			margin-top: 0;
+  		}
+  	}
+  	
+
+  	.bg-gray {
+  		margin-top: 2em; 
+  		margin-bottom: 2em;
+		background: none;
+		padding: 1em 20px;
+		background: #F2F2F2;
+		margin-left: -35px;
+		margin-right:  -35px;
+		text-align: center;
+
+		p.blurb {
+			margin: 1em auto 1em;
+			font-size: 18px;
+			color: #000000;
+
+			strong {
+				margin: 1em 0 0;
+				display: block;
+			}
+		}
+
+		p {
+			margin-bottom: 1em;
+		}
+		
+  	}
+
+  	h2 {
+  		font-size: 23px !important;
+
+  		span {
+  			display: inline-block;
+  		}
+  	}
   	
   	.flex-row {
   		flex-direction: column;
+  		padding-bottom: 0;
   	}
+
+  	.icons {
+  		margin-bottom: 2em;
+  	}
+  }
+
+  @media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+	
+	width: 750px;
+	margin: 0 auto;
+
+	.bg-gray {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 2em;
+		margin-bottom: 0;
+
+		
+	}
+
   }
 }
 
@@ -678,12 +831,25 @@ ul.icons {
     text-align: center;
   }
 
-  @media screen and (max-width: $grid-float-breakpoint-max) {
+  @media screen and (max-width: $screen-sm-max) {
+
+  	
+
+  	svg {
+  		height: 75px;
+  	}
+  	
   	flex-wrap: wrap;
+  	margin: 1em 0;
+
 
   	li {
   		margin: 0 auto;
   		width: 33.3333%;
+
+  		img {
+  			height: 20px;
+  		}
   	}
   }
 }
@@ -731,6 +897,29 @@ ul.icons {
       }
     }
   }
+
+  @media screen and (max-width: $screen-sm-max) {
+		.icons {
+			display: flex !important;
+			justify-content: space-between;
+
+			li {
+				width: 25%;
+			}
+		}
+
+		img.visible-xs {
+			@include dropshadow();
+		}
+
+		.google-colors {
+			column-gap: 2px;
+
+			li {
+				height: 5px;
+			}
+		}
+  }
 }
 
 
@@ -741,6 +930,14 @@ ul.icons {
 		}
 
 		.bg-hero {
+			order: 1;
+		}
+
+		.ribbon-section {
+			order: 0;
+		}
+
+		.landing-form {
 			order: 1;
 		}
 	}

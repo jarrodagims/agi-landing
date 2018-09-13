@@ -426,9 +426,34 @@
   }
 }
 
+@media screen and (max-width: $grid-float-breakpoint-max) {
+  #footer {
+    .sub-footer {
+      background: $white;
+      color: #606060;
+      padding-bottom: 1em;
+
+      ul {
+        background: #000;
+        width: 100%;
+        display: block;
+        margin-bottom: 1em;
+      } 
+
+      .col-xs-12 {
+        padding: 0 0;
+
+        .visible-xs {
+          display: inline-block !important;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: $screen-sm-max) {
   #footer {
-    padding: 2em;
+    
     text-align: center;
 
     a {
