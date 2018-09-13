@@ -77,6 +77,7 @@ function mycustom_wp_footer()
                         redirectURL = 'thank-you-home-norank';
                         break;
 
+
                     case '3386':
                         // formTitle = 'AGI Home No Website Question';
                         redirectURL = 'thank-you-home-nowebsite';
@@ -152,6 +153,10 @@ function mycustom_wp_footer()
                         redirectURL = 'thank-you-law-firm';
                         break;
 
+                    case '4697':
+                        // formTitle = 'LP Law Firm';
+                        redirectURL = 'thank-you-free-website';
+                        break;
                     default:
                         // formTitle = 'Contact Form';
                         redirectURL = 'thank-you';

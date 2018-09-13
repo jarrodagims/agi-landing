@@ -132,7 +132,7 @@ get_header(landing); ?>
                 <div class="extra-padding" id="online-marketing-move">
                     <div id="online-marketing-inside"><h2><span class="brand">Online Marketing:</span>
                             <span class="br">Why It’s a Great Idea for HVAC Companies</span></h2>
-                <p class="blurb">When it comes to owning a business in the HVAC industry, competition is fierce. A great
+                <p class="blurb">When it comes to owning a business in the <strong>HVAC</strong> industry, competition is fierce. A great
                     way to get your business ahead of the game is to utilize the internet to market your products and
                     services.</p>
                 <p>AGI Marketing is a Google Partner digital marketing agency that is certified and ready to help you
@@ -1031,7 +1031,8 @@ get_header(landing); ?>
 
                         <div id="online-marketing-move-to"></div>
 
-                        <div class="bg-gray"><p class="blurb">Marketing your business online is important because that’s how most potential
+                        <div class="bg-gray">
+                            <div class="extra-padding"><p class="blurb">Marketing your business online is important because that’s how most potential
                             clients will find you.<br/>
                                 <strong>Nobody picks up a <span class="br">phonebook anymore.</span></strong>
                         </p>
@@ -1044,6 +1045,7 @@ get_header(landing); ?>
                             going to whip out their smartphones and Google something like <strong>“air conditioner
                                 repair.”</strong> This is when
                             you want your company to come up. With us, it will. </p></div>
+                        </div>
 
                         <ul class="icons hidden-xs hidden-sm">
                             <li><img
@@ -1077,7 +1079,7 @@ get_header(landing); ?>
                             stand, we can help you with everything from creating a new website to managing a large ad
                             account.
                             Call us today to learn more about the services that we offer!</p>
-                        <a href="">
+                        <a href="https://www.agims.com/contact-us/">
                             <button class="btn btn-success">CONTACT US TODAY</button>
                         </a></div>
                 </div>

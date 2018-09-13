@@ -581,6 +581,7 @@ h2 {
 
 .landing-form {
   margin-top: 80px;
+ 
 
   p {
     font-weight: 300;
@@ -594,6 +595,10 @@ h2 {
     line-height: 1.5em;
     margin-top: 1.75em;
     margin-bottom: 1.25em;
+
+     strong {
+  	 color: #606060;
+  }
   }
 
   h2 {
@@ -713,6 +718,10 @@ p {
   }
 
   @media screen and (min-width: $screen-md-min) {
+
+  	h2 span.brand {
+  		display: block;
+  	}
   	.extra-padding {
 		padding-right: 3em;
 	}

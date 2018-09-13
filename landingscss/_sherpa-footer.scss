@@ -255,8 +255,9 @@
   }
 
   a .fa {
-    color: #D2D2D2;  
+    color: #606060;  
     padding: 0 0;
+    font-size: 12px;
   }
 
   a:hover .fa {
@@ -401,6 +402,10 @@
       margin: 0 0 1em 0;
     }
 
+    .br {
+      display: block;
+    }
+
     .navbar-brand {
       height: auto;
 
@@ -456,6 +461,11 @@
     
     text-align: center;
 
+    img {
+      height: 34px;
+      margin-bottom: 2em;
+    }
+
     a {
       display: block;
     }
@@ -465,6 +475,10 @@
       padding: 14px 18px;
       margin-bottom: 28px;
       @include nodropshadow();
+    }
+
+    p {
+      font-weight: 400;
     }
     
 
@@ -477,6 +491,15 @@
     }
 
     .sub-footer {
+
+      img {
+        height: auto;
+        margin-bottom: 0;
+      }
+
+      ul {
+        padding-bottom: 2em;
+      }
       .flex-col {
         flex-direction: column;
       }

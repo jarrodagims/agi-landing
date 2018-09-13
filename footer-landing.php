@@ -48,11 +48,11 @@
             <div class="col-md-4">
 
 
-                <p><span class="title">CONTACT US TODAY</span>
+                <p><span class="title hidden-xs">CONTACT US TODAY</span>
                     <strong>PH.</strong> 915-209-5381<br />
-                    1370 Pullman Dr, Ste. G, El Paso, TX 79936</p>
+                    1370 Pullman Dr, Ste. G, <span class="br">El Paso, TX 79936</span></p>
 
-                <a href="https://www.agims.com/conact-us/">
+                <a href="https://www.agims.com/contact-us/">
                     <button class="btn btn-success">Send Me Some Info About Digital Marketing</button>
                 </a>
             </div>
@@ -96,11 +96,13 @@
         </div>
         <div class="row sub-footer">
             <div class="col-md-6 col-xs-12">
-                <?php $sm = new SocialMedia(array('facebook', 'twitter', 'googleplus', 'linkedin', 'youtube'));
-                $sm->setSize('sm');
-                $sm->showNetworkButtons();
-                $sm->setColorType('singleColor');
-                ?>
+                <ul class="list-inline social-media sm">
+                    <li><a href="https://www.facebook.com/agimarketing" class="facebook-button social-media-button sm square lighten external" target="_blank"><i class="fa fa-facebook fa-fw "><span>Facebook</span></i></a></li>
+                    <li><a href="https://twitter.com/agi_marketing" class="twitter-button social-media-button sm square lighten external" target="_blank"><i class="fa fa-twitter fa-fw "><span>Twitter</span></i></a></li>
+                    <li><a href="https://plus.google.com/+Agims/posts" class="googleplus-button social-media-button sm square lighten external" target="_blank"><i class="fa fa-google-plus fa-fw "><span>Google Plus</span></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/agi-marketing" class="linkedin-button social-media-button sm square lighten external" target="_blank"><i class="fa fa-linkedin fa-fw "><span>LinkedIn</span></i></a></li>
+                    <li><a href="http://www.youtube.com/user/AGIElPaso" class="youtube-button social-media-button sm square lighten external" target="_blank"><i class="fa fa-youtube-play fa-fw "><span>YouTube</span></i></a></li>
+                </ul>
             </div>
             <div class="col-md-6 col-xs-12 copyright"><p>Privacy Policy   |   Site Copyright &copy; 2018 <img
                             src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-footer.png"
