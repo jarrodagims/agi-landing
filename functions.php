@@ -189,7 +189,7 @@ function mycustom_wp_footer()
 }
 
 function register_landing_style() {
-    if ( is_page_template( 'page-landing-2018.php' ) ) {
+    if ( is_page_template( 'page-landing-2018.php' ) || is_page_template('page-landing-free-website.php')) {
         wp_enqueue_style( 'landing', get_stylesheet_directory_uri() . '/css/landing-style.css' );
         wp_enqueue_style( 'magnific', get_stylesheet_directory_uri() . '/css/magnific-popup.css' );
         wp_enqueue_script( 'magnific-js', get_stylesheet_directory_uri() . '/js/jquery.magnific-popup.min.js' );
