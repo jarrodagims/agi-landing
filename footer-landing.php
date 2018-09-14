@@ -39,27 +39,21 @@
 
 <footer id="footer">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12"><img
+        <div class="flex-row">
+            <div class="flex-col logo-footer">
+                <img
                         src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-agi-lg.png"
-                        alt="AGI Marketing" class="logo" /></div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-
-
+                        alt="AGI Marketing" class="logo" />
+            </div>
+            <div class="flex-col">
                 <p><span class="title hidden-xs">CONTACT US TODAY</span>
                     <strong>PH.</strong> 915-209-5381<br />
                     1370 Pullman Dr, Ste. G, <span class="br">El Paso, TX 79936</span></p>
-
+            </div>
+            <div class="flex-col">
                 <a href="#contact-pup" class="popup-button">
                     <button class="btn btn-success">Send Me Some Info About Digital Marketing</button>
                 </a>
-            </div>
-            <div class="col-md-8 hidden-xs">
-                <div class="flex-row">
-
-                </div>
             </div>
         </div>
         <div class="row sub-footer">

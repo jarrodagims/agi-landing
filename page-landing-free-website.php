@@ -2,7 +2,7 @@
 
 /*
 
-    Template Name: Landing 2018
+    Template Name: Landing Website 2018
 
 */
 
@@ -10,14 +10,6 @@ get_header(landing); ?>
 
     <section class="bg-hero visible-xs">
         <div class="hero-text">
-            <ul class="google-colors">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
             <h1>Let us handle your internet marketing.<br/>
                 <span>So you can focus on <span class="br">what you do <em>best.</em></span></span>
             </h1>
@@ -25,14 +17,6 @@ get_header(landing); ?>
     </section>
     <div class="flex-order">
     <section class="bg-hero">
-        <ul class="google-colors hidden-xs">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
         <div class="hero-text hidden-xs"><h1>Let us handle your internet marketing.<br/>
                 <span>So you can focus on <span class="br">what you do <em>best.</em></span></span>
             </h1></div>
@@ -100,7 +84,7 @@ get_header(landing); ?>
                 >
                     <div class="flex-col">
                         <div class="testimonial" >
-                            <div class="extra-padding"><a href="https://www.schdm.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-scott.png"
+                            <div class="extra-padding"><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-scott.png"
                                                                         alt="Scott's Heating and Cooling"/></a>
                                 <p>“We are more than glad to talk about the current marketing company we use, AGI Marketing. We have been a client of AGI’s a multitude of years and are not only pleased with their service, we are now the <span>TOP company</span> in our area and surrounding in the HVAC industry. Anything Internet, social media, IT, and all around tech service - AGI is a MUST!!!!”</p>
 
@@ -114,19 +98,19 @@ get_header(landing); ?>
                     </div>
                     <div class="flex-col">
                         <div class="testimonial">
-                            <div class="extra-padding"><a href="https://www.epmechtech.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-mech.png"
+                            <div class="extra-padding"><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-mech.png"
                                                                         height="36" alt="EP Mech Tech"/></a>
-                                <p>“Over the years AGI has taken care of our digital marketing, we have experienced tremendous growth in sales, more customers and orders. And this has positively impacted and raised our business' percentage growth and bottom-line profit.”</p>
+                                <p>“We are more than glad to talk about the current marketing company we use, AGI Marketing. We have been a client of AGI’s a multitude of years and are not only pleased with their service, we are now the TOP company in our area and surrounding in the HVAC industry. Anything Internet, social media, IT, and all around tech service - AGI is a MUST!!!!”</p>
 
                                 <p class="author">
                                     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/ratings.png" alt="5 Star rating" height="13"  />
-                                    <strong>Ana Zubiate</strong><br />
+                                    <strong>Jaime Zubiate</strong><br />
                                     <em>Mechanical Technologies Air Conditioning/Refrigeration</em></p></div>
                         </div>
                     </div>
                     <div class="flex-col">
                         <div class="testimonial">
-                            <div class="extra-padding"><a href="http://diazservicesep.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-diaz.png"
+                            <div class="extra-padding"><a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-diaz.png"
                                                                         alt="Diaz Services"/></a>
                                 <p>“I am ecstatic with AGI’s services. Since bringing them onboard the phone keeps ringing. Marketing material is superb and engaging. All my marketing questions are answered in a timely manner and are backed up by data.”</p>
 

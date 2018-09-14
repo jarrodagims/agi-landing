@@ -22,6 +22,11 @@
     }
   }
 
+  .flex-row {
+    justify-content: space-between;
+    margin-bottom: 1em;
+  }
+
   .col-md-8 {
     .flex-row {
       justify-content: space-between;
@@ -81,10 +86,6 @@
       }
     }
 
-    .sub-footer {
-        margin-top: 81px;
-    }
-
     
     .copyright {
       text-align: right;
@@ -120,16 +121,7 @@
     }
 
 
-    .logo-footer img {
-      height: 100px;
-    }
-
-    .hours-footer, .contact-footer, .logo-footer, .button-footer {
-      text-align: center;
-      width: auto;
-      margin: 0 auto;
-      width: 100%;
-    }
+   
 
     a.arrow {
       margin-bottom: 2em;
@@ -152,10 +144,6 @@
     line-height: 1.75;
     font-weight: 300;
     margin-bottom: 0;
-  }
-
-  .btn {
-    margin-top: 40px;
   }
 
   ul {
@@ -466,6 +454,18 @@
   #footer {
     
     text-align: center;
+
+    .flex-row {
+      display: block !important;
+
+      .flex-col {
+        display: block !important;
+        
+        &:nth-child(2) {
+          margin-bottom: 2em;
+        }
+      }
+    }
 
     img {
       height: 34px;

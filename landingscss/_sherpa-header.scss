@@ -73,8 +73,7 @@
 
 .top-banner {
   background-size: auto 100%;
-  border-bottom: 4px solid $sherpa-brand-primary;
-background: #E7453C;
+  background: #E7453C;
 
   a {
     color: $white;
@@ -103,6 +102,8 @@ background: #E7453C;
     h1 {
       font-size: 21px;
       line-height: 1.25;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
       
       span {
         letter-spacing: 0;
@@ -110,12 +111,12 @@ background: #E7453C;
     }
 
     @media screen and (min-width: $screen-md-min) {
-      padding: 3em 0;
+      padding: 2em 0;
 
       h1 {
         margin: 0 0;
-        font-weight: 400; 
-        font-size: 44px;
+        font-weight: 600; 
+        font-size: 32px;
 
         span.br {
           color: $white;

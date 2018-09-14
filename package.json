@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path  --source-map  css landingscss/style.scss css/landing-style.css --output-style compressed",
+    "build-css": "node-sass --include-path  --source-map  scss landingscss/style.scss css/landing-style.css --output-style compressed",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
     "start": "livereload"
   },
