@@ -10,6 +10,7 @@ $includes = array(
     'sherpa-theme-options-page.php',// Create our options page - Settings => Theme Options
     'do-shortcode-widget.php',		// Create a widget to do a single shortcode
     'menus.php',					// Set up our menus
+    'SocialMedia.php',              //Setup Social Media for Landing page
     'navs.php',						// Include our navs functions
     'paging-nav.php',				// Set up our paging nav
     'theme-features.php',			// Set up our theme features
@@ -75,6 +76,7 @@ function mycustom_wp_footer()
                         // formTitle = 'AGI Home No Rank Question';
                         redirectURL = 'thank-you-home-norank';
                         break;
+
 
                     case '3386':
                         // formTitle = 'AGI Home No Website Question';
@@ -155,7 +157,6 @@ function mycustom_wp_footer()
                         // formTitle = 'LP Law Firm';
                         redirectURL = 'thank-you-free-website';
                         break;
-
                     default:
                         // formTitle = 'Contact Form';
                         redirectURL = 'thank-you';
@@ -181,3 +182,11 @@ function mycustom_wp_footer()
     <?php
 }
 
+function register_landing_style() {
+    if ( is_page_template( 'page-landing-2018.php' ) ) {
+        wp_enqueue_style( 'landing', get_stylesheet_directory_uri() . '/css/landing-style.css' );
+        wp_enqueue_style( 'magnific', get_stylesheet_directory_uri() . '/css/magnific-popup.css' );
+        wp_enqueue_script( 'magnific-js', get_stylesheet_directory_uri() . '/js/jquery.magnific-popup.min.js' );
+    }
+}
+add_action( 'wp_enqueue_scripts', 'register_landing_style' );

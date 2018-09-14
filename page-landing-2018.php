@@ -166,7 +166,7 @@ get_header(landing); ?>
                     <ul class="icon-row flex-row">
                         <li class="flex-col">
 
-                            <a href="https://www.agims.com/contact-us/">
+                            <span>
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                      viewBox="0 0 25.5 25" enable-background="new 0 0 25.5 25" xml:space="preserve">
@@ -205,11 +205,11 @@ get_header(landing); ?>
                                         </g>
                                     </g>
 </svg>
-                                Display Advertising</a>
+                                Display Advertising</span>
                         </li>
                         <li class="flex-col">
 
-                            <a href="https://www.agims.com/contact-us/">
+                            <span>
                                 <svg class="no-margin" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                      viewBox="0 0 47 21" enable-background="new 0 0 47 21" xml:space="preserve">
@@ -226,11 +226,11 @@ get_header(landing); ?>
                                         </g>
                                     </g>
 </svg>
-                            </a>
+                            </span>
                         </li>
                         <li class="flex-col">
 
-                            <a href="https://www.agims.com/contact-us/">
+                            <span>
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                      viewBox="0 0 22 24.6" enable-background="new 0 0 22 24.6" xml:space="preserve">
@@ -274,10 +274,10 @@ get_header(landing); ?>
                                     </g>
 </svg>
 
-                                Search Engine Optimization</a>
+                                Search Engine Optimization</span>
                         </li>
                         <li class="flex-col">
-                            <a href="https://www.agims.com/contact-us/">
+                            <span>
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                      viewBox="0 0 25.5 21.7" enable-background="new 0 0 25.5 21.7" xml:space="preserve">
@@ -305,10 +305,10 @@ get_header(landing); ?>
                                         </g>
                                     </g>
 </svg>
-                                Remarketing/<br/>Retargeting</a>
+                                Remarketing/<br/>Retargeting</span>
                         </li>
                         <li class="flex-col">
-                            <a href="https://www.agims.com/contact-us/">
+                            <span>
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                      viewBox="0 0 18.8 19.4" enable-background="new 0 0 18.8 19.4" xml:space="preserve">
@@ -337,10 +337,10 @@ get_header(landing); ?>
                                         </g>
                                     </g>
 </svg>
-                                Social Media Marketing</a>
+                                Social Media Marketing</span>
                         </li>
                         <li class="flex-col">
-                            <a href="https://www.agims.com/contact-us/">
+                            <span>
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                      viewBox="0 0 22.3 19.5" enable-background="new 0 0 22.3 19.5" xml:space="preserve">
@@ -375,10 +375,10 @@ get_header(landing); ?>
                                         </g>
                                     </g>
 </svg>
-                                Reputation Management</a>
+                                Reputation Management</span>
                         </li>
                         <li class="flex-col">
-                            <a href="https://www.agims.com/contact-us/">
+                            <span>
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                      viewBox="0 0 22.5 16" enable-background="new 0 0 22.5 16" xml:space="preserve">
@@ -400,10 +400,10 @@ get_header(landing); ?>
                                         </g>
                                     </g>
 </svg>
-                                Youtube Marketing</a>
+                                Youtube Marketing</span>
                         </li>
                         <li class="flex-col">
-                            <a href="https://www.agims.com/contact-us/">
+                            <span>
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                      viewBox="0 0 28.3 19" enable-background="new 0 0 28.3 19" xml:space="preserve">
@@ -427,10 +427,10 @@ get_header(landing); ?>
                                         </g>
                                     </g>
 </svg>
-                                Pay-Per-Click Advertising</a>
+                                Pay-Per-Click Advertising</span>
                         </li>
                         <li class="flex-col">
-                            <a href="https://www.agims.com/contact-us/">
+                            <span>
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                      xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                      viewBox="0 0 27.2 19.8" enable-background="new 0 0 27.2 19.8" xml:space="preserve">
@@ -454,7 +454,7 @@ get_header(landing); ?>
                                         </g>
                                     </g>
 </svg>
-                                Website Management</a>
+                                Website Management</span>
                         </li>
                     </ul>
                 </div>
@@ -1079,7 +1079,7 @@ get_header(landing); ?>
                             stand, we can help you with everything from creating a new website to managing a large ad
                             account.
                             Call us today to learn more about the services that we offer!</p>
-                        <a href="https://www.agims.com/contact-us/">
+                        <a href="#contact-pup" class="popup-button">
                             <button class="btn btn-success">CONTACT US TODAY</button>
                         </a></div>
                 </div>

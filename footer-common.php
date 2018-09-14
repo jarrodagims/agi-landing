@@ -172,9 +172,31 @@ if(is_page('free-audit')){
 <script type="text/javascript" src="https://formalyzer.com/formalyze_call_secure.js"></script> ';
 }
 ?>
+<!-- Magnific Popup core CSS file -->
+<link rel="stylesheet" href="/wp-content/themes/agi2016/css/magnific-popup.css">
+<!-- Magnific Popup core JS file -->
+<script src="/wp-content/themes/agi2016/js/jquery.magnific-popup.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
 <script>
+    $( document ).ready(function() {
+        $('#everyone-is-searching').typeIt({
+            strings: ["People are searching...", "Can they find your business?"],
+            speed: 200,
+            breakLines: false,
+            autoStart: false,
+            loop: true
+        });
+        $('.popup-button').magnificPopup({
+            type:'inline',
+            midClick: true
+        });
+        $('#servicesbtn').click(function(){
+            $('html, body').animate({
+                scrollTop: $( $(this).attr('href') ).offset().top
+            }, 500);
+            return false;
+        });
     if (screen.width <= 640) {
-        $(document).ready(function(){
             // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
             $(".sone").hover(function(){
                 //On Hover - Works on ios
@@ -188,9 +210,7 @@ if(is_page('free-audit')){
                 $(".shone").show();
                 $(".spone").show();
                 $(".ssone").hide();
-            })
         });
-        $(document).ready(function(){
             // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
             $(".stwo").hover(function(){
                 //On Hover - Works on ios
@@ -204,9 +224,7 @@ if(is_page('free-audit')){
                 $(".shtwo").show();
                 $(".sptwo").show();
                 $(".sstwo").hide();
-            })
         });
-        $(document).ready(function(){
             // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
             $(".sthree").hover(function(){
                 //On Hover - Works on ios
@@ -220,9 +238,7 @@ if(is_page('free-audit')){
                 $(".shthree").show();
                 $(".spthree").show();
                 $(".ssthree").hide();
-            })
         });
-        $(document).ready(function(){
             // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
             $(".sfour").hover(function(){
                 //On Hover - Works on ios
@@ -236,9 +252,7 @@ if(is_page('free-audit')){
                 $(".shfour").show();
                 $(".spfour").show();
                 $(".ssfour").hide();
-            })
         });
-        $(document).ready(function(){
             // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
             $(".sfive").hover(function(){
                 //On Hover - Works on ios
@@ -252,9 +266,7 @@ if(is_page('free-audit')){
                 $(".shfive").show();
                 $(".spfive").show();
                 $(".ssfive").hide();
-            })
         });
-        $(document).ready(function(){
             // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
             $(".ssix").hover(function(){
                 //On Hover - Works on ios
@@ -268,9 +280,7 @@ if(is_page('free-audit')){
                 $(".shsix").show();
                 $(".spsix").show();
                 $(".sssix").hide();
-            })
         });
-        $(document).ready(function(){
             // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
             $(".sseven").hover(function(){
                 //On Hover - Works on ios
@@ -284,9 +294,7 @@ if(is_page('free-audit')){
                 $(".shseven").show();
                 $(".spseven").show();
                 $(".ssseven").hide();
-            })
         });
-        $(document).ready(function(){
             // Sorry about bad spacing. Also...this is jquery if you didn't notice allready.
             $(".seight").hover(function(){
                 //On Hover - Works on ios
@@ -300,81 +308,20 @@ if(is_page('free-audit')){
                 $(".sheight").show();
                 $(".speight").show();
                 $(".sseight").hide();
-            })
         });
     }
-</script>
-<!-- Magnific Popup core CSS file -->
-<link rel="stylesheet" href="/wp-content/themes/agi2016/css/magnific-popup.css">
-<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
-<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
-<!-- Magnific Popup core JS file -->
-<script src="/wp-content/themes/agi2016/js/jquery.magnific-popup.min.js"></script>
-<script>
-    $('.open-one').magnificPopup({
-        type:'inline',
-        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
     });
-    $('.open-two').magnificPopup({
-        type:'inline',
-        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-    });
-    $('.open-three').magnificPopup({
-        type:'inline',
-        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-    });
-    $('.open-four').magnificPopup({
-        type:'inline',
-        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-    });
-    $('.open-five').magnificPopup({
-        type:'inline',
-        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-    });
-    $('.open-six').magnificPopup({
-        type:'inline',
-        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-    });
-    $('.open-seven').magnificPopup({
-        type:'inline',
-        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-    });
-    $('.open-eight').magnificPopup({
-        type:'inline',
-        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-    });
-    $('.open-nine').magnificPopup({
-        type:'inline',
-        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-    });
-    $('.open-ten').magnificPopup({
-        type:'inline',
-        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-    });
-    $('.open-eleven').magnificPopup({
-        type:'inline',
-        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-    });
-</script>
-<script>
-    $('#servicesbtn').click(function(){
-        $('html, body').animate({
-            scrollTop: $( $(this).attr('href') ).offset().top
-        }, 500);
-        return false;
-    });
-</script>
-<script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
-<script>
-    $( document ).ready(function() {
-        $('#everyone-is-searching').typeIt({
-            strings: ["People are searching...", "Can they find your business?"],
-            speed: 200,
-            breakLines: false,
-            autoStart: false,
-            loop: true
-        });
-    });
+
+    var LC_API = LC_API || {};
+    LC_API.on_chat_started = function()
+    {
+        // track this chat in Google AdWords
+        var google_conversion_id, google_conversion_label, img;
+        google_conversion_id    = '960835212';
+        google_conversion_label = '7FuvCNb3qIgBEIzdlMoD';
+        img = new Image(1, 1);
+        img.src = 'https://www.googleadservices.com/pagead/conversion/'+google_conversion_id+'/?label='+google_conversion_label+'&script=0';
+    };
 </script>
 </body>
 </html>

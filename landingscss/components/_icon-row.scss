@@ -133,16 +133,13 @@
     @include dropshadow();
     position: relative;
 
-
-    
-
     &:last-child a:after {
       border-right: 0;
     }
   }
 
 
-  .flex-col a {
+  .flex-col a, .flex-col span {
     background: #444444;
     height: 100%;
     width: 100%;

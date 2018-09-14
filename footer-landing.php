@@ -52,45 +52,13 @@
                     <strong>PH.</strong> 915-209-5381<br />
                     1370 Pullman Dr, Ste. G, <span class="br">El Paso, TX 79936</span></p>
 
-                <a href="https://www.agims.com/contact-us/">
+                <a href="#contact-pup" class="popup-button">
                     <button class="btn btn-success">Send Me Some Info About Digital Marketing</button>
                 </a>
             </div>
             <div class="col-md-8 hidden-xs">
                 <div class="flex-row">
 
-                    <div class="flex-col"><span class="title">PAGES</span>
-                        <ul>
-                            <li><a href="https://www.agims.com/">Home</a></li>
-                            <li><a href="https://www.agims.com/google-partner/">About AGI</a></li>
-                            <li><a href="https://www.agims.com/seo/">Services</a></li>
-                            <li><a href="https://www.agims.com/careers/">Careers</a></li>
-                            <li><a href="https://www.agims.com/blog/">Blog</a></li>
-                            <li><a href="https://www.agims.com/contact-us/">Contact Us</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="flex-col"><span class="title">What We Do</span>
-                        <ul>
-                            <li><a href="https://www.agims.com/seo/">Search Engine Optimization (SEO)</a></li>
-                            <li><a href="https://www.agims.com/social-media-marketing/">Social Media Marketing</a></li>
-                            <li><a href="https://www.agims.com/digital-marketing-advertising/">Digital Marketing/Search Engine Marketing</a></li>
-                            <li><a href="https://www.agims.com/online-reputation-management/">Online Reputation Management</a></li>
-                            <li><a href="https://www.agims.com/web-design-management/">Responsive Web Design</a></li>
-                            <li><a href="https://www.agims.com/digital-marketing-advertising/">Display Advertising</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="flex-col"><span class="title">AWESOME WORK FOR</span>
-                        <ul>
-                            <li><a href="https://www.agims.com/marketing-dental/">Dental</a></li>
-                            <li><a href="https://www.agims.com/marketing-law-firm/">Lawyers</a></li>
-                            <li><a href="https://www.agims.com/marketing-healthcare/">Healthcare</a></li>
-                            <li>Real Estate</li>
-                            <li>Home Services</li>
-                            <li>Small Business</li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </div>
@@ -112,6 +80,14 @@
         </div>
     </div>
 </footer>
+
+<div id="contact-pup" class="white-popup mfp-hide">
+    <h2><span>Online Marketing</span></h2>
+    <p>Find out why it’s a great idea for HVAC Companies</p>
+    <?php
+        echo do_shortcode('[contact-form-7 id="12" title="Contact Landing Page"]');
+    ?>
+</div>
 <?php wp_footer(); ?>
 <!-- Google Code for Remarketing Tag -->
 <!--------------------------------------------------
@@ -203,6 +179,12 @@ chosen link or button. -->
     }
 
     initializeSlideShow();
+
+    $('.popup-button').magnificPopup({
+        type:'inline',
+        midClick: true
+    });
+
     })();
 </script>
 </body>
