@@ -1114,5 +1114,38 @@ get_header(landing); ?>
     </section>
 
     </div>
+    <section class="google-partner text-center">
+        <ul class="icons visible-xs visible-sm">
+            <li><img
+                        src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-scott.png"
+                        alt="Scott's Heating and Cooling"/></li>
+
+            <li><img
+                        src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/mech-tech-hot.png"
+                        height="36" alt="EP Mech Tech"/></li>
+
+            <li><img
+                        src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/diaz-hot.png"
+                        alt="Diaz Services"/></li>
+
+            <li><img
+                        src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/bg-hot.png"
+                        alt="B & G Air Conditioning"/></li>
+        </ul>
+        <ul class="google-colors">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/google-partner.png"
+             alt="A Google Partner Agency" class="hidden-xs" />
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/google-partner-small.png"
+             alt="A Google Partner Agency" class="visible-xs" />
+
+    </section>
 <?php
 get_footer(landing);

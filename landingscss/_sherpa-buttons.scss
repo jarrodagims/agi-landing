@@ -9,6 +9,9 @@
   letter-spacing: 1px;
   font-family: 'Montserrat', sans-serif;
   transition: background-color 0.2s ease-in-out;
+  
+  border: 0;
+  color: $white;
 
   &.btn-default {
     background: #E3E3E5;
@@ -17,7 +20,9 @@
 
 
   &.btn-default, &.btn-primary {
-    &:hover {
+    background: #2193FA;
+    
+    &:hover, &:focus, &:active {
       background: $sherpa-brand-primary;
       color: $white;
       border-color: transparent;
