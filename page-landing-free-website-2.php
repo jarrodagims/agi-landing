@@ -2,7 +2,7 @@
 
 /*
 
-    Template Name: Landing Free Website
+    Template Name: Landing Free Website 2
 
 */
 

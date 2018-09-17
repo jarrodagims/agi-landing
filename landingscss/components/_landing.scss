@@ -631,15 +631,23 @@ h2 {
     margin-bottom: 1.25em;
 
      strong {
-  	 color: #606060;
+  	 	color: #606060;
+  	 }
   }
+
+  span.wpcf7-not-valid-tip {
+  	margin-top: 1em;
+
   }
+  
 
   h2 {
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.35;
     color: #606060;
+    text-align: left;
+    margin-bottom: 1em;
 
     span {
       font-size: 33px;
@@ -655,6 +663,55 @@ h2 {
     &.more-margin {
       margin-bottom: .75em;
     }
+  }
+
+  .flex-row {
+
+  	.flex-col {
+  		width: 100%;
+  		justify-content: flex-start;
+
+  		&:first-child {
+  			margin-right: .5em;
+  		}
+
+
+  		&:last-child {
+  			margin-left: .5em;
+  		}
+
+  		input {
+  			height: 5em;
+  		}
+
+  		textarea {
+  			height: 11.7em;
+  			flex: 1;
+  			padding: 2em 1em;
+  		}
+
+  		.textarea {
+  			flex: 1;
+
+  		}
+
+  		input, textarea {
+  			width: 100%;
+  			border: 0;
+
+  			-webkit-box-shadow: 0px 0px 19px 3px rgba(0,0,0,0.11);
+			-moz-box-shadow: 0px 0px 19px 3px rgba(0,0,0,0.11);
+			box-shadow: 0px 0px 19px 3px rgba(0,0,0,0.11);
+
+  			&:focus {
+  				@include dropshadow();
+  			}
+  		}
+  	}
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+  	
   }
 
   @media screen and (max-width: $screen-sm-max) {
@@ -1038,16 +1095,29 @@ ul.icons {
 	
 
 	.video-container {
-		max-width: 854px;
+
+		.btn, .embed-responsive {
+			max-width: 854px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+
+
 		margin: 0 auto;
 
-		.btn {
+		p {
+			margin: 0 0;
+		}
+		
+	}
+
+	.btn {
 			width: 100%;
 			margin: 4em 0;
 			font-size: 15px;
 			padding: 35px;
 		}
-	}
 
 	.landing-form {
 		p.blurb, strong {
@@ -1094,6 +1164,25 @@ ul.icons {
 
 			.video-container {
 				max-width: 100%;
+
+				label {
+					margin: 0 20px;
+				}
+
+				h2 {
+					margin: 2em 20px 1em;
+				}
+
+				textarea {
+					margin-bottom: 1em;
+				}
+
+				.flex-row {
+					.flex-col {
+						margin-left: 0;
+						margin-right: 0;
+					}
+				}
 
 			
 				.embed-responsive {
