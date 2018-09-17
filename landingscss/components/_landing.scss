@@ -1165,6 +1165,10 @@ ul.icons {
 			.video-container {
 				max-width: 100%;
 
+				.form-group {
+					margin-bottom: 0;
+				}
+
 				label {
 					margin: 0 20px;
 				}
@@ -1197,7 +1201,7 @@ ul.icons {
 					text-transform: none;
 					font-weight: 600;
 					margin-bottom: 2px;
-					position: relative;
+					position: relative; 
 					overflow: hidden;
 					font-size: 12px;
 					padding-right: 60px;
