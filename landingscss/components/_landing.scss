@@ -82,10 +82,10 @@
 
   h1 {
     color: $white;
-    text-align: left;
     font-size: 28px;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.3;
+    text-align: center;
 
 
     em {
@@ -116,7 +116,6 @@
 
   .btn {
   	background: #2193FA;
-  	font-weight: 600;
   	border: 0 !important;
   	outline: 0 !important;
   	box-shadow: none !important;
@@ -311,7 +310,15 @@ h2 {
   	}
   }
 
+  @media screen and (max-width: $screen-md-max) {
+
+	&.list-header .ribbon-header {
+		font-size: 16px;
+  	} 
+  }
+
   @media screen and (max-width: $screen-sm-max) {
+
   	text-align: center;
   	@include gradient();
   	margin-left: -15px;
@@ -665,17 +672,7 @@ h2 {
   .flex-row {
 
   	.flex-col {
-  		width: 100%;
-  		justify-content: flex-start;
-
-  		&:first-child {
-  			margin-right: .5em;
-  		}
-
-
-  		&:last-child {
-  			margin-left: .5em;
-  		}
+  		
 
   		input {
   			height: 5em;
@@ -718,6 +715,7 @@ h2 {
   	h2 {
   		color: #606060;
   		font-size: 23px !important;
+  		text-align: center;
 
   		span {
   			font-size: 23px !important;
@@ -818,6 +816,7 @@ p {
   @media screen and (max-width: $screen-sm-max) {
   	padding-top: 1.25em;
   	padding-bottom: 0;
+  	text-align: center;
 
   	span.br {
 		display: block;
@@ -862,6 +861,7 @@ p {
 
   	h2 {
   		font-size: 23px !important;
+  		text-align: center;
 
   		span {
   			display: inline-block;
@@ -889,10 +889,7 @@ p {
 		margin-right: 0;
 		padding: 2em;
 		margin-bottom: 0;
-
-		
 	}
-
   }
 }
 
@@ -1057,10 +1054,30 @@ ul.icons {
 
 	h1 {
 		font-size: 40px !important;
+		text-align: left;
 		
 		span.brand {
 			color: $sherpa-brand-primary;
 			font-size: 40px !important;
+		}
+	}
+
+	.landing-form {
+		.flex-row {
+
+			.flex-col {
+				width: 100%;
+				justify-content: flex-start;
+
+				&:first-child {
+					margin-right: .5em;
+				}
+
+
+				&:last-child {
+					margin-left: .5em;
+				}
+			}
 		}
 	}
 	

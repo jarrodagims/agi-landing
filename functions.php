@@ -33,7 +33,6 @@ foreach($includes as $include) {
     require_once($prefix . $include);
 }
 
-
 add_action( 'wp_footer', 'mycustom_wp_footer' );
 
 function mycustom_wp_footer()

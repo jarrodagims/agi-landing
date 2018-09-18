@@ -159,7 +159,7 @@ Remarketing tags may not be associated with personally identifiable information 
     function initializeSlideShow() {
         if ($(window).width() < 768) {
             $('.slideshow').cycle({
-                timeout: 2000
+                timeout: 8000
             });
 
             $('#online-marketing-inside').appendTo('#online-marketing-move-to');

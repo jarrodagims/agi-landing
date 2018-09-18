@@ -31,6 +31,10 @@ get_header(landing); ?>
             <h1>Let us handle your internet marketing.<br/>
                 <span>So you can focus on <span class="br">what you do <em>best.</em></span></span>
             </h1>
+
+            <a href="#contact-pup" class="popup-button visible-xs">
+                <button class="btn btn-primary">Get More Leads Now</button>
+            </a>
         </div>
     </section>
     <div class="flex-order">
@@ -53,7 +57,6 @@ get_header(landing); ?>
 
                 <div class="row flex-row slideshow"
                      data-cycle-fx="scrollHorz"
-                     data-cycle-timeout="2000"
                      data-cycle-slides="> div"
                      data-index="1">
                     <div class="flex-col">
@@ -61,7 +64,7 @@ get_header(landing); ?>
                         <div class="screen scotts">
 
                         </div>
-                        <a href="https://www.schdm.com/" target="_blank">
+                        <a href="https://www.schdm.com/" target="_blank"  class="hidden-xs">
                             <button class="btn btn-primary">See Website</button>
                         </a>
                         <span class="testrib hidden-xs hidden-sm">Check out their testimonial below</span>
@@ -72,7 +75,7 @@ get_header(landing); ?>
                         <div class="screen epmechtech">
 
                         </div>
-                        <a href="https://www.epmechtech.com/" target="_blank">
+                        <a href="https://www.epmechtech.com/" target="_blank" class="hidden-xs">
                             <button class="btn btn-primary">See Website</button>
                         </a>
                         <span class="testrib hidden-xs hidden-sm">Check out their testimonial below</span>
@@ -83,7 +86,7 @@ get_header(landing); ?>
                         <div class="screen diaz">
 
                         </div>
-                        <a href="http://diazservicesep.com/" target="_blank">
+                        <a href="http://diazservicesep.com/" target="_blank" class="hidden-xs">
                             <button class="btn btn-primary">See Website</button>
                         </a>
                         <span class="testrib hidden-xs hidden-sm">Check out their testimonial below</span>
@@ -104,10 +107,8 @@ get_header(landing); ?>
             <div class="container-fluid">
                 <div class="row flex-row slideshow"
                      data-cycle-fx="scrollHorz"
-                     data-cycle-timeout="2000"
                      data-cycle-slides="> div"
-                     data-index="1"
-                >
+                     data-index="1">
                     <div class="flex-col">
                         <div class="testimonial" >
                             <div class="extra-padding"><a href="https://www.schdm.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-scott.png"
@@ -136,8 +137,7 @@ get_header(landing); ?>
                     </div>
                     <div class="flex-col">
                         <div class="testimonial">
-                            <div class="extra-padding"><a href="http://diazservicesep.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-diaz.png"
-                                                                        alt="Diaz Services"/></a>
+                            <div class="extra-padding"><a href="http://diazservicesep.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing/logo-diaz.png" alt="Diaz Services"/></a>
                                 <p>“I am ecstatic with AGI’s services. Since bringing them onboard the phone keeps ringing. Marketing material is superb and engaging. All my marketing questions are answered in a timely manner and are backed up by data.”</p>
 
                                 <p class="author">
@@ -1054,6 +1054,10 @@ get_header(landing); ?>
                                 Business
                             </li>
                         </ul>
+
+                        <a href="#contact-pup" class="popup-button visible-xs">
+                            <button class="btn btn-primary">Get More Leads Now</button>
+                        </a>
 
                         <div id="online-marketing-move-to"></div>
 
