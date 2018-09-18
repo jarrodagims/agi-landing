@@ -635,10 +635,7 @@ h2 {
   	 }
   }
 
-  span.wpcf7-not-valid-tip {
-  	margin-top: 1em;
-
-  }
+  
   
 
   h2 {
@@ -1056,6 +1053,8 @@ ul.icons {
 
 .page-template-page-landing-free-website {
 
+	
+
 	h1 {
 		font-size: 40px !important;
 		
@@ -1096,10 +1095,26 @@ ul.icons {
 
 	.video-container {
 
+		span.wpcf7-not-valid-tip {
+		position: absolute;
+		right: 1em;
+		top: 1em;
+		width: 100%;
+		text-align: right;
+	  }
+
+	  .wpcf7-form-control-wrap {
+		display: block;
+	  }
+
 		.btn, .embed-responsive {
 			max-width: 854px;
 			margin-left: auto;
 			margin-right: auto;
+		}
+
+		.embed-responsive {
+			height: 366px;
 		}
 
 
@@ -1109,15 +1124,17 @@ ul.icons {
 		p {
 			margin: 0 0;
 		}
-		
-	}
 
-	.btn {
+		.btn {
 			width: 100%;
 			margin: 4em 0;
 			font-size: 15px;
 			padding: 35px;
 		}
+		
+	}
+
+	
 
 	.landing-form {
 		p.blurb, strong {

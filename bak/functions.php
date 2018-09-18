@@ -154,9 +154,15 @@ function mycustom_wp_footer()
                         break;
 
                     case '4697':
-                        // formTitle = 'LP Law Firm';
+                        // formTitle = 'Free Website';
                         redirectURL = 'thank-you-free-website';
                         break;
+
+                    case '4750':
+                        // formTitle = 'Contact Landing Page';
+                        redirectURL = 'hvac-thank-you';
+                        break;
+
                     default:
                         // formTitle = 'Contact Form';
                         redirectURL = 'thank-you';
