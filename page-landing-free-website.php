@@ -21,7 +21,7 @@ get_header(landing); ?>
         <section class="landing-form">
             <div class="container text-center">
                 <?php the_field('lander_body', false); ?>
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing-free-website/bg-hero-sm.jpg" class="visible-xs" alt="">
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/landing-free-website/bg-hero.jpg" class="visible-xs" alt="">
                 </div>
             </div>
         </section>

@@ -1050,14 +1050,22 @@ ul.icons {
 
 .page-template-page-landing-free-website {
 
-	
+	 #map-section {
+		&::before {
+		background: url('../img/landing-free-website/bg-map.png') center 0 no-repeat;
+		background-size: cover;
+	  }
+	 }
+
 
 	h1 {
-		font-size: 40px !important;
+		font-size: 39px !important;
+		font-weight: 400;
 		text-align: left;
+		color: #000;
 		
 		span.brand {
-			color: $sherpa-brand-primary;
+			color: #2193FA;
 			font-size: 40px !important;
 		}
 	}
@@ -1084,10 +1092,9 @@ ul.icons {
 
 	@media screen and (min-width: $screen-md-min) {
 		.bg-hero {
-		margin-top: 17px;
-		background: url('../img/landing-free-website/bg-hero.jpg') 0 0 no-repeat;
+		background: #d0d5da url('../img/landing-free-website/bg-hero.jpg') 0 0 no-repeat;
 		background-size: cover;
-		height: 417px;
+		height: 512px;
 		align-items: center;
 		display: flex; 
 
@@ -1124,14 +1131,14 @@ ul.icons {
 		display: block;
 	  }
 
-		.btn, .embed-responsive {
+		.btn {
 			max-width: 854px;
 			margin-left: auto;
 			margin-right: auto;
 		}
 
 		.embed-responsive {
-			height: 366px;
+			height: 640px;
 		}
 
 
@@ -1170,6 +1177,7 @@ ul.icons {
 			> div {
 				background: #000;
 				padding-top: 2em;
+
 			}
 
 			h1, h1 span {
@@ -1181,6 +1189,10 @@ ul.icons {
 
 			h1 span {
 				display: inline;
+			}
+
+			h1 {
+				color: $white;
 			}
 		}
 
@@ -1225,6 +1237,7 @@ ul.icons {
 			
 				.embed-responsive {
 					margin-left: 20px;
+					height: 320px;
 					margin-right: 20px;
 				}
 
